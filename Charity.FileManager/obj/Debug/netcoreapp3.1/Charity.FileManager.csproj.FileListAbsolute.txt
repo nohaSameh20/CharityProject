@@ -1,0 +1,17 @@
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\bin\Debug\netcoreapp3.1\Charity.FileManager.deps.json
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\bin\Debug\netcoreapp3.1\Charity.FileManager.dll
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.AssemblyInfoInputs.cache
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.AssemblyInfo.cs
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.csproj.CoreCompileInputs.cache
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\bin\Debug\netcoreapp3.1\Charity.FileManager.pdb
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.dll
+D:\CharityProject\Charity.Domain\CharityProject\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.pdb
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\bin\Debug\netcoreapp3.1\Charity.FileManager.deps.json
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\bin\Debug\netcoreapp3.1\Charity.FileManager.dll
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\bin\Debug\netcoreapp3.1\Charity.FileManager.pdb
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.csprojAssemblyReference.cache
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.AssemblyInfoInputs.cache
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.AssemblyInfo.cs
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.csproj.CoreCompileInputs.cache
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.dll
+D:\CharityProject\CharityProject.Domain\Charity.FileManager\obj\Debug\netcoreapp3.1\Charity.FileManager.pdb

@@ -1,0 +1,17 @@
+D:\CharityProject\CharityProject.Domain\Charity.Common\bin\Debug\netcoreapp2.2\Charity.Common.deps.json
+D:\CharityProject\CharityProject.Domain\Charity.Common\bin\Debug\netcoreapp2.2\Charity.Common.dll
+D:\CharityProject\CharityProject.Domain\Charity.Common\bin\Debug\netcoreapp2.2\Charity.Common.pdb
+D:\CharityProject\CharityProject.Domain\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.AssemblyInfoInputs.cache
+D:\CharityProject\CharityProject.Domain\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.AssemblyInfo.cs
+D:\CharityProject\CharityProject.Domain\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.csproj.CoreCompileInputs.cache
+D:\CharityProject\CharityProject.Domain\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.dll
+D:\CharityProject\CharityProject.Domain\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.pdb
+C:\Users\Noha\source\repos\charity\Charity.Common\bin\Debug\netcoreapp2.2\Charity.Common.deps.json
+C:\Users\Noha\source\repos\charity\Charity.Common\bin\Debug\netcoreapp2.2\Charity.Common.dll
+C:\Users\Noha\source\repos\charity\Charity.Common\bin\Debug\netcoreapp2.2\Charity.Common.pdb
+C:\Users\Noha\source\repos\charity\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\charity\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.AssemblyInfo.cs
+C:\Users\Noha\source\repos\charity\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\charity\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.dll
+C:\Users\Noha\source\repos\charity\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.pdb
+C:\Users\Noha\source\repos\charity\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.csprojAssemblyReference.cache

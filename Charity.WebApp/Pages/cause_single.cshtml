@@ -1,0 +1,83 @@
+﻿@page
+@model Charity.WebApp.Pages.cause_singleModel
+@{
+}
+
+<!-- Page Banner Section -->
+<section class="page-banner">
+    <div class="image-layer lazy-image" data-bg="url('images/background/bg-banner-1.jpg')"></div>
+    <div class="bottom-rotten-curve"></div>
+
+    <div class="auto-container">
+        <h1>Single Causes</h1>
+        <ul class="bread-crumb clearfix">
+            <li><a asp-page="/Index">Home</a></li>
+            <li class="active">Cause Details</li>
+        </ul>
+    </div>
+
+</section>
+<!--End Banner Section -->
+<!--Sidebar Page Container-->
+<div class="sidebar-page-container">
+    <div class="auto-container">
+        <div class="row clearfix">
+
+            <!--Content Side / Blog Sidebar-->
+            <div class="content-side col-lg-4 col-md-12 col-sm-12">
+                <!--Cause Details-->
+                <div class="cause-details">
+                    <div class="inner-box">
+                        <div class="lower-content">
+                            <div class="text-content">
+                                <h3 style="color:#3aa364;font-weight:bold">Case Information:</h3>
+                                <ul>
+                                    <li><span style="color:#3aa364;font-weight:bold">Name: </span>@Model.Result.CaseName</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Description: </span>@Model.Result.CaseDescription</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Phone Number: </span>@Model.Result.CasePhoneNumber</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">First Address: </span>@Model.Result.FisrtAddress</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Second Address: </span>@Model.Result.SecondAddress</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Gender: </span>@Model.Result.CaseGender</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Age: </span>@Model.Result.CaseAge</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Religion : </span>@Model.Result.Religion</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Region: </span>@Model.Result.Region</li>
+                                    <li><button class="btn"> <a asp-page-handler="DownloadFile" asp-route-Id="@Model.Result.Id">Download Case Attachments</a></button></li>
+                                </ul>
+                                
+                            </div>
+                            <div class="link-box"><a asp-page="/Donate" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="content-side col-lg-4 col-md-12 col-sm-12">
+                <!--Cause Details-->
+                <div class="cause-details">
+                    <div class="inner-box">
+                        <div class="lower-content">
+                            <div class="text-content">
+                                <h3 style="color:#3aa364;font-weight:bold">Sender Information:</h3>
+                                <ul>
+                                    <li><span style="color:#3aa364;font-weight:bold">Name: </span>@Model.Result.SenderName</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Phone Number: </span>@Model.Result.SenderPhoneNumber</li>
+                                    <li><span style="color:#3aa364;font-weight:bold">Address: </span>@Model.Result.SenderAddress</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="content-side col-lg-4 col-md-12 col-sm-12">
+
+                <img src="~/images/Details.jpg" />
+            </div>
+
+        </div>
+    </div>
+</div>

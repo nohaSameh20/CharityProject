@@ -1,0 +1,125 @@
+﻿@page
+@model Charity.WebApp.Pages.ContactModel
+@{
+}
+<style>
+    .contact-section .map-column {
+        top: 90px;
+    }
+    .message {
+        color: red;
+    }
+</style>
+
+
+<!-- Page Banner Section -->
+<section class="page-banner">
+    <div class="image-layer lazy-image" data-bg="url('images/background/bg-banner-1.jpg')"></div>
+    <div class="bottom-rotten-curve"></div>
+
+    <div class="auto-container">
+        <h1>Contact Us</h1>
+        <ul class="bread-crumb clearfix">
+            <li><a asp-page="/Index">Home</a></li>
+            <li class="active">Contact Us</li>
+        </ul>
+    </div>
+
+</section>
+<!--End Banner Section -->
+<!--Contact Info Section-->
+<section class="contact-info-section">
+    <div class="auto-container">
+
+        <div class="sec-title centered">
+            <div class="sub-title">Contact Us</div>
+            <h2>Get In Touch</h2>
+            <div class="text">Conatc with Us</div>
+        </div>
+
+        <div class="info-boxes">
+            <div class="row clearfix">
+                <!--Info Box-->
+                <div class="info-box col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-delay="0ms">
+                        <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-1.jpg')"></div>
+                        <div class="icon-box"><span class="flaticon-home-location-marker"></span></div>
+                        <h4>Our Location</h4>
+                        <ul>
+                            <li>16/14 Babor Road, Shyamoly Dhaka.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Info Box-->
+                <div class="info-box col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
+                        <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-2.jpg')"></div>
+                        <div class="icon-box"><span class="flaticon-phone-call"></span></div>
+                        <h4>Phone Number</h4>
+                        <ul>
+                            <li><a href="tel:(+55)654-545-5418">(+55)  654 - 545 - 5418</a></li>
+                            <li><a href="tel:(+55)654-545-1235">(+55)  654 - 545 - 1235</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Info Box-->
+                <div class="info-box col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
+                        <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-3.jpg')"></div>
+                        <div class="icon-box"><span class="flaticon-email"></span></div>
+                        <h4>Email Address</h4>
+                        <ul>
+                            <li><a href="mailto:nohasameh583@gmail.com">giovanixbene@gmail.com</a></li>
+                            <li><a href="mailto:nohasameh583@gmail.com">giovanixbene@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="contact-section " >
+    <div class="outer-container clearfix">
+
+        <div class="form-column clearfix">
+            <div class="inner clearfix">
+                <div class="sec-title centered ">
+                <div class="sub-title">Contact Us</div>
+                <h2>Leave a Message</h2>
+                <div class="text">lorem ipusm</div>
+            </div>
+                <!-- Contact Form-->
+                <div class="contact-form">
+                    <form method="post" id="contact-form">
+                        <div class="row clearfix">
+                            <div class="col-md-6 col-sm-12 form-group">
+                                <input type="text" asp-for="model.Subject" placeholder="Your name">
+                                <span class="message" asp-validation-for="model.Subject"></span>
+                            </div>
+
+                            <div class="col-md-6 col-sm-12 form-group">
+                                <input type="email" asp-for="model.EmailFromAddress" placeholder="Your Email">
+                                <span class="message" asp-validation-for="model.EmailFromAddress"></span>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 form-group">
+                                <textarea asp-for="model.Body" placeholder="Write your message"></textarea>
+                                <span class="message" asp-validation-for="model.Body"></span>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 form-group text-center">
+                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Send Message</span></button>
+                            </div>
+                        </div>
+                       </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-column clearfix">
+            <img src="~/images/contact.svg" />
+        </div>
+
+    </div>
+</section>

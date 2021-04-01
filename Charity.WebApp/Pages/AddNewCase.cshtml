@@ -1,0 +1,108 @@
+﻿@page
+@model Charity.WebApp.Pages.AddNewCaseModel
+@{
+}
+@using Enum;
+<style>
+    #sender:after, #sender:before {
+        background-color: #189849;
+        content: "";
+        display: inline-block;
+        height: 3px;
+        position: relative;
+        vertical-align: middle;
+        width: 22%;
+        margin: 16px
+    }
+    .message{
+        color:red;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color:#fe0000;font-weight:bold">Add New Case</h5>
+                    <h6 class="card-title text-center" style="color:#279852;font-weight:bold">We accept only sick cases</h6>
+                    <div class="d-flex flex-column text-center">
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="CaseName" asp-for="model.CaseName" placeholder="Case Name...">
+                                <span class="message" asp-validation-for="model.CaseName"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea type="text" class="form-control" asp-for="model.CaseDescription" id="Description" placeholder="Description..."></textarea>
+                                <span class="message" asp-validation-for="model.CaseName"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" asp-for="model.CaseAge" id="age" min="1" placeholder="Age...">
+                                <span class="message" asp-validation-for="model.CaseAge"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="phoneNumber" asp-for="model.CasePhoneNumber" placeholder="Phone...">
+                                <span class="message" asp-validation-for="model.CasePhoneNumber"></span>
+
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" asp-for="model.Region" id="region" placeholder="region...">
+                                <span class="message" asp-validation-for="model.Region"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="address1" asp-for="model.FisrtAddress" placeholder="Address One...">
+                                <span class="message" asp-validation-for="model.FisrtAddress"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="address2" asp-for="model.SecondAddress" placeholder="Address Two...">
+                                <span class="message" asp-validation-for="model.SecondAddress"></span>
+
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <select asp-for="model.CaseGender" selected asp-items="Html.GetEnumSelectList<CaseGender>()" class="form-control navbar-brand " id="sel1">
+                                        <option disabled selected>Gender</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <select asp-for="model.Religion" selected asp-items="Html.GetEnumSelectList<Religion>()" class="form-control navbar-brand " id="sel1">
+                                        <option disabled selected>Religion</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <h6 id="sender" style="color:#279852;font-weight:bold">Sender Information</h6><br />
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="SenderName" asp-for="model.SenderName" placeholder=" Sender Name...">
+                                <span class="message" asp-validation-for="model.SenderName"></span>
+
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="SenderPhone" asp-for="model.SenderPhoneNumber" placeholder=" Sender Phone...">
+                                <span class="message" asp-validation-for="model.SenderPhoneNumber"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="SenderAddreess" asp-for="model.SenderAddress" placeholder=" Sender  Address...">
+                                <span class="message" asp-validation-for="model.SenderAddress"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="file" class="form-control" id="image" asp-for="AttachmentUploader">
+
+                            </div>
+
+                            <button type="submit" class="btn btn-success  btn-block btn-round " style="color:white">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+ 

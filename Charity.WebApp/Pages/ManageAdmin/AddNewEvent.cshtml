@@ -1,0 +1,53 @@
+﻿@page
+@model Charity.WebApp.Pages.ManageAdmin.AddNewEventModel
+@{
+    Layout = "~/Pages/Shared/AdminLayout.cshtml";
+}
+@using Enum
+<style>
+    .form-group span {
+        color: red;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color:#3cc88f">Add New Event</h5>
+                    <div class="d-flex flex-column text-center">
+
+                        <form method="post" asp-page-handler="ChangeEventType">
+                            <div class="form-group" style="padding-bottom:30px">
+                                <select selected asp-items="Html.GetEnumSelectList<EventType>()" asp-for="model.Type" onchange="this.form.submit()" class="form-control navbar-brand"></select>
+                            </div>
+                        </form>
+
+                        <form method="post" enctype="multipart/form-data" asp-page-handler="OnPost">
+                            @if (Model.Type == 1)
+                            {
+                                <div class="form-group">
+                                    <input type="text" asp-for="model.Descirption" class="form-control" id="description" placeholder="Enter Image Description...">
+
+                                </div>
+                                <div class="form-group">
+                                    <input type="file" class="form-control" id="image" asp-for="ImageUploader">
+
+                                </div>
+                            }
+
+                            @if (Model.Type == 2)
+                            {
+                                <div class="form-group">
+                                    <input type="text" class="form-control" asp-for="model.Url" id="url" placeholder="Enter URL Of Vedio...">
+                                </div>
+                            }
+                            <button type="submit" class="btn btn-success  btn-block btn-round  btn-style-three" style="color:white">Add</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

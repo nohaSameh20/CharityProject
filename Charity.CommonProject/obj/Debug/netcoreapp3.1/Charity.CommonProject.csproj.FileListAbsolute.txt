@@ -1,0 +1,16 @@
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\bin\Debug\netcoreapp3.1\Charity.CommonProject.deps.json
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\bin\Debug\netcoreapp3.1\Charity.CommonProject.dll
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.AssemblyInfoInputs.cache
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.AssemblyInfo.cs
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\bin\Debug\netcoreapp3.1\Charity.CommonProject.pdb
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.csproj.CoreCompileInputs.cache
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.dll
+D:\CharityProject\Charity.Domain\CharityProject\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.pdb
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\bin\Debug\netcoreapp3.1\Charity.CommonProject.deps.json
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\bin\Debug\netcoreapp3.1\Charity.CommonProject.dll
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\bin\Debug\netcoreapp3.1\Charity.CommonProject.pdb
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.AssemblyInfoInputs.cache
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.AssemblyInfo.cs
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.csproj.CoreCompileInputs.cache
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.dll
+D:\CharityProject\CharityProject.Domain\Charity.CommonProject\obj\Debug\netcoreapp3.1\Charity.CommonProject.pdb

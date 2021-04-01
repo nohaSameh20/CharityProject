@@ -1,0 +1,82 @@
+﻿@page
+@model Charity.WebApp.Pages.ManageAdmin.ViewAllEventsModel
+@{
+    Layout = "~/Pages/Shared/AdminLayout.cshtml";
+}
+@{int i = 1;}
+<style>
+    .thead {
+        background: #25283a;
+    }
+
+    th {
+        color: white
+    }
+
+    td, td a {
+        color: black
+    }
+
+    .btn {
+        outline: none;
+        border: none;
+        color: #25283a;
+    }
+</style>
+<div class="container" style="padding-top:100px;padding-bottom: 200px;">
+    <div class="row col-md-12 col-md-offset-2 custyle">
+        <button id='myButton' onClick='redirectToAdd()' class="btn " style="position: absolute; right: 13px; top: -49px;outline:none"><i class="fa fa-plus"></i> Add</button>
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th>#</th>
+                    <th>Type</th>
+                    <th>Image</th>
+                    <th>URL</th>
+                    <th>Description</th>
+                    <th class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Result)
+                {
+                    <tr>
+                        <td><a data-toggle="tooltip" style="font-size:18px" asp-route-Id="@item.Id">@(i++)</a></td>
+                        <td>@item.Type</td>
+                        @if (@item.Image != null)
+                        {
+                            <td><img src="data:image/png;base64,@item.Image" style="height:50px;width:50px;border-radius:50%" alt="image" class="image" /></td>
+
+                        }
+                        @if (@item.Image == null)
+                        {
+                            <td><img src="~/images/no_image.png" style="height:50px;width:50px;border-radius:50%" alt="image" class="image" /></td>
+
+                        }
+
+                        <td><a href="@item.URL">@item.URL</a></td>
+                        <td>@item.Description</td>
+                        <td class="text-center">
+                            @*<a class='btn btn-xs' asp-page="/ManageAdmin/EditEvent" asp-route-Id="@item.Id" asp-page-handler="Edit" ><span class="fa fa-edit"></span> Edit</a>*@
+                            <a asp-page="/ManageAdmin/ViewAllEvents" asp-route-Id="@item.Id" asp-page-handler="Delete" class="btn  btn-xs"><span class="fa fa-trash"></span> Del</a>
+                        </td>
+                    </tr>
+
+                }
+
+            </tbody>
+
+            <tfoot>
+                @if (Model.Result.Count == 0)
+                {
+                    <tr><td>No Data To Be Shown...........</td></tr>
+                }
+            </tfoot>
+        </table>
+    </div>
+</div>
+<script>
+    function redirectToAdd() {
+        document.location = '/ManageAdmin/AddNewEvent';
+    }
+</script>
