@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj": {}
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj": {
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj",
         "projectName": "Charity.Domain",
-        "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj",
+        "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj",
         "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

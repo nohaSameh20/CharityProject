@@ -13,8 +13,9 @@ namespace Charity.Persistence
         List<ISeedCommand> seedObjs = new List<ISeedCommand>();
         private void InititSeedList()
         {
-            seedObjs.Add(new AddAnotherAdminSeed(databaseService));
             seedObjs.Add(new InitSeedCommand(databaseService));
+            seedObjs.Add(new AddAnotherAdminSeed(databaseService));
+            
 
         }
 

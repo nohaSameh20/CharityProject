@@ -715,11 +715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj",
+      "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj",
       "projectName": "Charity.FileManager",
-      "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj",
+      "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj",
       "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\obj\\",
+      "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

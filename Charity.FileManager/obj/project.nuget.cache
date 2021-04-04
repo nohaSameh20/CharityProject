@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TkzhwTdHOl3R4jjHG3Ti6y+2i+K5pW7qOxxh/VEQwcMM6Tg3eWDMDpx5tzFubnhnWUp/jePP3Oghxs7YPaJFZg==",
+  "dgSpecHash": "YQI/t8UnjFe5n99fwqrjp0EaswXhzGGPTZtLRkRmMgnVVXKZrvXyM17n4w8gzD/2fAPCknrycjYgKqHDgzFNyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj",
+  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",

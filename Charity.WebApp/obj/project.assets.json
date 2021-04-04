@@ -12378,11 +12378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.WebApp\\Charity.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.WebApp\\Charity.WebApp.csproj",
       "projectName": "Charity.WebApp",
-      "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.WebApp\\Charity.WebApp.csproj",
+      "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.WebApp\\Charity.WebApp.csproj",
       "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.WebApp\\obj\\",
+      "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12402,11 +12402,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Jwt\\Charity.Jwt.csproj": {
-              "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Jwt\\Charity.Jwt.csproj"
+            "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Jwt\\Charity.Jwt.csproj": {
+              "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Jwt\\Charity.Jwt.csproj"
             },
-            "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Persistence\\Charity.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Persistence\\Charity.Persistence.csproj"
+            "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Persistence\\Charity.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Persistence\\Charity.Persistence.csproj"
             }
           }
         }

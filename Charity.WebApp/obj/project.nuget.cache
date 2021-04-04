@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "StNnV37o5kPUIKHReiJuW1CDvAQA5etMysAgdc7BaVyIYQ1W4vxGu3Nu9ni3qJIxP3O4FDWRJ7YKT/WT0ht8FQ==",
+  "dgSpecHash": "flFDqrOeTQibBzDy8xl847JiABD5VCBxQ+fQrqK6E/q/nk0mihPE/Xekkgmi7AoNaxiwG+M9ffM0JfvSJS5ZsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.WebApp\\Charity.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.WebApp\\Charity.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T5NnJpWzQyelzLsSBvOgXMJ4gdwZQlLGL5CWVXQ80vf9XlWcK4fAUTKrh67LE+QeQY2jfDwTgEgtuPQMjenUrA==",
+  "dgSpecHash": "hQdS49Pj/HQIUaBFl2OSMwO/aVBexD1mS2O8jwgl/DrYEMNHui7DLu2ChX5+if9Er1g7xJCibsqwj5dqOfBZxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Common\\Charity.Common.csproj",
+  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Common\\Charity.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

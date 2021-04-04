@@ -27,6 +27,9 @@ namespace Charity.Persistence.SeedManagement.Commands
             string pass = @"Nus4U9slzcccbUnZtkbfBkCUobWj5GK9lIgqDG/lOSs=";
             string salt = @"hEfMnnfyP3RzmdKkMcavGw==";
 
+            Guid egyptId = databaseService.Countries.Single(obj => obj.Name == "Egypt").Id;
+            Guid countryId = databaseService.Nationalities.Single(obj => obj.Name == "Egyption").Id;
+
 
             // Add admin 
             User admin = new User()
@@ -40,8 +43,8 @@ namespace Charity.Persistence.SeedManagement.Commands
                 UserRole = UserRole.SysAdmin,
                 IsActive = true,
                 IsDeleted = false,
-                NationalityId = Guid.Parse("60047F92-E087-491B-99C3-08D8F4AD7FBA"),
-                CountryId = Guid.Parse("81E999DC-9F6D-42E0-93A9-45494471C193"),
+                NationalityId = countryId,
+                CountryId = egyptId,
             };
 
             // Update Database 

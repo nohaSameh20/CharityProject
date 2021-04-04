@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+de0c01x8d2cXBfokvdFcB7pbR6WESUKiZYmXx2fzegxtiNyRviF9pYrad0VlhT0bchxjs+rE0RqAhtMmtV2Ow==",
+  "dgSpecHash": "RmoUryv/kUF3GPtAU7+x5t+ROZR1VbG9Ead0MQhOu6YJwDGFs8fHnf/24E0I/9uHGbU/sut/h10oYQ3u/KBPaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Noha\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",

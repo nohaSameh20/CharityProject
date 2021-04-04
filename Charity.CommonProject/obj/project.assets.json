@@ -765,11 +765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj",
+      "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj",
       "projectName": "Charity.CommonProject",
-      "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj",
+      "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj",
       "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\obj\\",
+      "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

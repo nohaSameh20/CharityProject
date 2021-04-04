@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Persistence\\Charity.Persistence.csproj": {}
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Persistence\\Charity.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Application\\Charity.Application.csproj": {
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Application\\Charity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Application\\Charity.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Application\\Charity.Application.csproj",
         "projectName": "Charity.Application",
-        "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Application\\Charity.Application.csproj",
+        "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Application\\Charity.Application.csproj",
         "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Application\\obj\\",
+        "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,17 +31,17 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj": {
-                "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj"
+              "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj": {
+                "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj"
               },
-              "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Common\\Charity.Common.csproj": {
-                "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Common\\Charity.Common.csproj"
+              "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Common\\Charity.Common.csproj": {
+                "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Common\\Charity.Common.csproj"
               },
-              "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj": {
-                "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj"
+              "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj": {
+                "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj"
               },
-              "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj": {
-                "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj"
+              "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj": {
+                "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj": {
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj",
+        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj",
         "projectName": "Charity.CommonProject",
-        "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj",
+        "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj",
         "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\obj\\",
+        "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -155,14 +155,14 @@
         }
       }
     },
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Common\\Charity.Common.csproj": {
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Common\\Charity.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Common\\Charity.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Common\\Charity.Common.csproj",
         "projectName": "Charity.Common",
-        "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Common\\Charity.Common.csproj",
+        "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Common\\Charity.Common.csproj",
         "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Common\\obj\\",
+        "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj": {
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj",
         "projectName": "Charity.Domain",
-        "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\Charity.Domain.csproj",
+        "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\Charity.Domain.csproj",
         "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -291,14 +291,14 @@
         }
       }
     },
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj": {
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj",
+        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj",
         "projectName": "Charity.FileManager",
-        "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\Charity.FileManager.csproj",
+        "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\Charity.FileManager.csproj",
         "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.FileManager\\obj\\",
+        "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.FileManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -354,14 +354,14 @@
         }
       }
     },
-    "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Persistence\\Charity.Persistence.csproj": {
+    "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Persistence\\Charity.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Persistence\\Charity.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Persistence\\Charity.Persistence.csproj",
         "projectName": "Charity.Persistence",
-        "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Persistence\\Charity.Persistence.csproj",
+        "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Persistence\\Charity.Persistence.csproj",
         "packagesPath": "C:\\Users\\Noha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -381,8 +381,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Application\\Charity.Application.csproj": {
-                "projectPath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Application\\Charity.Application.csproj"
+              "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Application\\Charity.Application.csproj": {
+                "projectPath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Application\\Charity.Application.csproj"
               }
             }
           }

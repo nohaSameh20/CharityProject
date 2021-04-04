@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eBIsAczOxAPAO+vOmEYESd345Rwuzz73IBPnSP1Qg34YMdoVfRDxL25DJEJZ+7zvF7ETgbN33uGzlAiEvqM4fA==",
+  "dgSpecHash": "lvYntkcNlv1opermf8mBXU0z8VWgs0bj19s72xrHhYymuACjrkMEddC4nNxFgLIPaPxcSRh4dAmhZwCigIhHbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.Jwt\\Charity.Jwt.csproj",
+  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.Jwt\\Charity.Jwt.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

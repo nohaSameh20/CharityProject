@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1u4w8APakZuGAOEnd5BWEuCat2iBCz/UbVy52bGiUvDdoHvzydIk/pDtW0dg+Z6RpAkT3kb4J/3zjW3Z50Ow5A==",
+  "dgSpecHash": "vwGqfqJeWTb9cWMk80M5d55Cho6D/kJ4Rbo0q+A6/RUdIpEAh5QJN7M5UCFS1Pxs+8zH64EPeytUjbYULBxxXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\charity\\Charity.CommonProject\\Charity.CommonProject.csproj",
+  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\Charity_New\\CharityProject\\Charity.CommonProject\\Charity.CommonProject.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.cryptography.internal\\2.2.0\\microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.cryptography.keyderivation\\2.2.0\\microsoft.aspnetcore.cryptography.keyderivation.2.2.0.nupkg.sha512",
