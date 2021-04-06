@@ -2,7 +2,7 @@
 @model Charity.WebApp.Pages.DonateModel
 @{
 }
-
+@using Enum
 
 <!-- Page Banner Section -->
 <section class="page-banner">
@@ -30,7 +30,7 @@
                     <div class="inner">
                         <h2>Please Make Your Donation</h2>
                         <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris aliquip exa commodo.</div>
-                        <figure class="image-box"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/donate-image-1.jpg" alt=""></figure>
+                        <figure class="image-box"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png"  alt=""></figure>
                     </div>
                 </div>
 
@@ -52,34 +52,50 @@
                                     <div class="input-box"><input type="text" name="other-payment" value="" placeholder="or Give a Custom Amount"></div>
                                 </div>
 
-                                <div class="method">
-                                    <h3>Payment Method</h3>
-                                    <div class="form-group">
-                                        <div class="clearfix">
-                                            <div class="radio-block"><input type="radio" id="radio-1" name="method"><label for="radio-1">Test Donation</label></div>
-                                            <div class="radio-block"><input type="radio" id="radio-2" name="method"><label for="radio-2">Offline Donation</label></div>
+                                @*<div class="method">
+                                        <h3>Payment Method</h3>
+                                        <div class="form-group">
+                                            <div class="clearfix">
+                                                <div class="radio-block"><input type="radio" id="radio-1" name="method"><label for="radio-1">Test Donation</label></div>
+                                                <div class="radio-block"><input type="radio" id="radio-2" name="method"><label for="radio-2">Offline Donation</label></div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div>*@
 
                                 <div class="personal-info">
-                                    <h3>Personal Information</h3>
+                                    <h3>Payment Information</h3>
 
                                     <div class="row clearfix">
-                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <div class="field-label">First Name</div>
-                                            <input type="text" name="field-name" value="" placeholder="First Name" required>
-                                        </div>
-                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <div class="field-label">Last Name</div>
-                                            <input type="text" name="field-name" value="" placeholder="Last Name">
-                                        </div>
-
                                         <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                            <div class="field-label">Email address</div>
-                                            <input type="email" name="field-name" value="" placeholder="Email address" required>
+                                            <div class="field-label">Card Type</div>
+                                            <select selected asp-items="Html.GetEnumSelectList<CardType>()" class="form-control navbar-brand"></select>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                            <div class="field-label">Card Number</div>
+                                            <input type="text" name="field-name" value="">
                                         </div>
 
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                            <div class="field-label">CVV</div>
+                                            <input type="email" name="field-name" value="">
+                                        </div>
+
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                            <div class="field-label">Month</div>
+                                            <input type="month" name="field-name" >
+                                        </div>
+
+                                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                            <div class="field-label">Year</div>
+                                            <input type="text" min="1900" max="2099" step="1" value="YYYY">
+                                        </div>
+                                        <div class="method">
+                                        <div class="form-group">
+                                            <div class="clearfix">
+                                                <div class="radio-block"><input type="radio" id="radio-1" name="method"><label for="radio-1">Please Agree to the <span style="color:#3cc88f">refund policy terms and conditions</span> before procedding</label></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                         <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                             <div class="donation-total">Donation Total: <strong>$50.00</strong></div>
                                         </div>
@@ -91,7 +107,7 @@
                                         <button type="submit" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></button>
                                     </div>
                                 </div>
-</form>
+                            </form>
 
                         </div>
 

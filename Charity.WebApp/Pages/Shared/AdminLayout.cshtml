@@ -118,6 +118,7 @@
                                     <form method="post" name="Form">
                                         <ul class="navigation clearfix">
                                             <li class="current"><a asp-page="ViewAllEvents">Events</a></li>
+                                            <li><a asp-page="/cases">Cases</a></li>
                                             @if (@HttpContextAccessor.HttpContext.Session.GetString("UserName") == null)
                                             {
                                                 <li>

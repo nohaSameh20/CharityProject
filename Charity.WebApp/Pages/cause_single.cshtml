@@ -2,7 +2,9 @@
 @model Charity.WebApp.Pages.cause_singleModel
 @{
 }
-
+@{
+    Layout = "~/Pages/Shared/AdminLayout.cshtml";
+}
 <!-- Page Banner Section -->
 <section class="page-banner">
     <div class="image-layer lazy-image" data-bg="url('images/background/bg-banner-1.jpg')"></div>
@@ -43,7 +45,7 @@
                                     <li><span style="color:#3aa364;font-weight:bold">Region: </span>@Model.Result.Region</li>
                                     <li><button class="btn"> <a asp-page-handler="DownloadFile" asp-route-Id="@Model.Result.Id">Download Case Attachments</a></button></li>
                                 </ul>
-                                
+
                             </div>
                             <div class="link-box"><a asp-page="/Donate" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
                         </div>

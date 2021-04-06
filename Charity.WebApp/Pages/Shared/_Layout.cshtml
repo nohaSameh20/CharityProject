@@ -125,9 +125,7 @@
                                                 <a asp-page="/About">About</a>
                                             </li>
 
-                                            <li>
-                                                <a asp-page="/cases">Cases</a>
-                                            </li>
+                                            
                                             @if (@HttpContextAccessor.HttpContext.Session.GetString("UserName") == null)
                                             {
                                                 <li>

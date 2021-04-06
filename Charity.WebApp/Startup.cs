@@ -47,7 +47,7 @@ namespace Charity.WebApp
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            RegisterLayers(services);
+           
             services.AddHttpContextAccessor();
             services.AddDistributedMemoryCache();
             services.AddSession(options =>
@@ -59,12 +59,35 @@ namespace Charity.WebApp
             {
                 o.ExpireTimeSpan = TimeSpan.FromDays(10);
             });
-
+            //Localization
             services.AddLocalization(options => options.ResourcesPath = "Resources");
             services.AddMvc()
-              .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
-              .AddDataAnnotationsLocalization();
+                .AddMvcLocalization(opt => { opt.ResourcesPath = "Resources"; })
+                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                .AddDataAnnotationsLocalization()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            services.Configure<RequestLocalizationOptions>(opt =>
+            {
+                var supportlang = new List<CultureInfo>()
+                {
+                    new CultureInfo("en"),
+                    new CultureInfo("ar")
+                    {
+                        DateTimeFormat =  new DateTimeFormatInfo()
+                        {
+                            ShortDatePattern = "yyyy/MM/DD",
+                            LongDatePattern = "yyyy/MM/DD"
+                        }
+                    }
+                };
+
+                opt.DefaultRequestCulture = new RequestCulture("en");
+                opt.SupportedCultures = supportlang;
+                opt.SupportedUICultures = supportlang;
+            });
+
+            RegisterLayers(services);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
@@ -97,18 +120,21 @@ namespace Charity.WebApp
                 RequestPath = new PathString("/Data")
             });
 
+            #region Localization
             var supportedCultures = new[]
             {
-                new CultureInfo("en-US"),
+                new CultureInfo("en"),
                 new CultureInfo("IT"),
+                new CultureInfo("ar")
             };
             app.UseRequestLocalization(new RequestLocalizationOptions
             {
-                DefaultRequestCulture = new RequestCulture("en-US"),
+                DefaultRequestCulture = new RequestCulture("en"),
                 SupportedCultures = supportedCultures,
                 SupportedUICultures = supportedCultures
             });
         }
+        #endregion
 
         private void RegisterLayers(IServiceCollection services)
         {

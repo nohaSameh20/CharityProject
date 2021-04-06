@@ -25,4 +25,14 @@ namespace Charity.WebApp.Enum
     {
         Organization = 1
     }
+
+    public enum CardType
+    {
+        Visa=1,
+        MasterCard=2,
+        AmericanExpress=3,
+        Discover=4,
+        Maestro=5,
+        JCB
+    }
 }
