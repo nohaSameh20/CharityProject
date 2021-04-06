@@ -15,11 +15,9 @@ namespace Charity.Persistence
         {
             seedObjs.Add(new InitSeedCommand(databaseService));
             seedObjs.Add(new AddAnotherAdminSeed(databaseService));
-            
-
         }
 
-        public SeedManager( IDatabaseService databaseService)
+        public SeedManager(IDatabaseService databaseService)
         {
             this.databaseService = databaseService;
             this.InititSeedList();

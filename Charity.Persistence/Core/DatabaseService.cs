@@ -12,7 +12,7 @@ namespace CharityProject.Persistance
 {
     public class DatabaseService : DbContext, IDatabaseService
     {
-        private string connectionString= "Data Source=DESKTOP-4UT1SMN\\SQLEXPRESS;Database=CharityDB;Trusted_Connection=true;MultipleActiveResultSets=True";
+        private string connectionString= "Data Source=SQL5103.site4now.net;Initial Catalog=DB_A71CC3_NohaSamehGomaa;User Id=DB_A71CC3_NohaSamehGomaa_admin;Password=P@ssw0rd";
         private IServiceProvider provider;
         public DatabaseService(  IServiceProvider provider, IDatabaseServiceOptions options)
         {

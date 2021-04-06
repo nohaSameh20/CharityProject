@@ -21,3 +21,15 @@ C:\Users\Noha\source\repos\charity\Charity.Domain\obj\Debug\netcoreapp2.2\Charit
 C:\Users\Noha\source\repos\charity\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.pdb
 C:\Users\Noha\source\repos\charity\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.genruntimeconfig.cache
 C:\Users\Noha\source\repos\charity\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\bin\Debug\netcoreapp2.2\Charity.Domain.deps.json
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\bin\Debug\netcoreapp2.2\Charity.Domain.runtimeconfig.json
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\bin\Debug\netcoreapp2.2\Charity.Domain.runtimeconfig.dev.json
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\bin\Debug\netcoreapp2.2\Charity.Domain.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\bin\Debug\netcoreapp2.2\Charity.Domain.pdb
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.AssemblyInfo.cs
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.pdb
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.genruntimeconfig.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.csprojAssemblyReference.cache

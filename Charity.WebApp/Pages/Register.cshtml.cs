@@ -39,7 +39,7 @@ namespace Charity.WebApp.Pages
         {
             LoadCountry = loadCountryQuery.GetCountries();
             loadNationality = loadNationalityQuery.Execute();
-            LoadCities = loadCitiesQuery.Execute();
+            //LoadCities = loadCitiesQuery.Execute(CountryId);
         }
 
         public IActionResult OnPost(RegisterationModel model)

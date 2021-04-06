@@ -51,7 +51,7 @@
                                 <div class="row">
 
                                     <div class="form-group col-md-6">
-                                        <select asp-for="model.CountryId" class="form-control navbar-brand " id="sel1">
+                                        <select asp-for="model.CountryId" class="form-control navbar-brand " id="Country-target">
                                             <option value="" selected>Select Country</option>
                                             @if (Model.LoadCountry != null)
                                             {
@@ -65,34 +65,19 @@
                                     </div>
 
                                     <div class="form-group col-md-6">
-                                        <select class="form-control navbar-brand " id="sel1">
-                                            <option value="" selected>Select Cites</option>
-                                            @if (Model.LoadCities != null)
+                                        <select asp-for="model.NationalityId" class="form-control navbar-brand " id="sel1">
+                                            <option value="" selected>Select Nationality</option>
+                                            @if (Model.loadNationality != null)
                                             {
-                                                @foreach (var item in Model.LoadCities)
+                                                @foreach (var item in Model.loadNationality)
                                                 {
                                                     <option value="@item.Id">@item.Name</option>
                                                 }
                                             }
 
-
                                         </select>
                                     </div>
                                 </div>
-
-                            <div class="form-group ">
-                                <select asp-for="model.NationalityId" class="form-control navbar-brand " id="sel1">
-                                    <option value="" selected>Select Nationality</option>
-                                    @if (Model.loadNationality != null)
-                                    {
-                                        @foreach (var item in Model.loadNationality)
-                                        {
-                                            <option value="@item.Id">@item.Name</option>
-                                        }
-                                    }
-
-                                </select>
-                            </div>
 
 
                             <div class="form-group">
@@ -114,15 +99,4 @@
         </div>
     </div>
 </div>
-<script>
-    var input = document.getElementsByTagName("input");
-    console.log(input);
-    var span = document.getElementsByTagName("span");
-
-    input[0].addEventListener("focus", myFunction);
-
-    function myFunction() {
-        span.style.backgroundColor = "red";
-    }
-    
-</script>
+ 

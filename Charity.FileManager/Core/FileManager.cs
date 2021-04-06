@@ -119,6 +119,17 @@ namespace CharityProject.FileManager.Core
 
             return newPath;
         }
+        public string UploadImg(string name, string extension, string image, string path)
+        {
+            StringBuilder fullName = new StringBuilder(200);
+            if (!string.IsNullOrWhiteSpace(path))
+                fullName.Append($"{path}/");
+
+            string newPath = fullName.Append($"{name}.{extension}").ToString();
+            File.WriteAllBytes(configuration.Container + newPath, Convert.FromBase64String(image));
+
+            return newPath;
+        }
 
     }
 }

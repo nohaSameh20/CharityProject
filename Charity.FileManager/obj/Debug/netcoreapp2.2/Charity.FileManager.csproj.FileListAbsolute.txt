@@ -16,3 +16,12 @@ C:\Users\Noha\source\repos\charity\Charity.FileManager\obj\Debug\netcoreapp2.2\C
 C:\Users\Noha\source\repos\charity\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.dll
 C:\Users\Noha\source\repos\charity\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.pdb
 C:\Users\Noha\source\repos\charity\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\bin\Debug\netcoreapp2.2\Charity.FileManager.deps.json
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\bin\Debug\netcoreapp2.2\Charity.FileManager.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\bin\Debug\netcoreapp2.2\Charity.FileManager.pdb
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.AssemblyInfo.cs
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.pdb
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.FileManager\obj\Debug\netcoreapp2.2\Charity.FileManager.csprojAssemblyReference.cache

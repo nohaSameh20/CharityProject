@@ -14,9 +14,9 @@ namespace Charity.Application.Countries
         {
             this.databaseService = databaseService;
         }
-        public List<LoadCitiesQueryResult> Execute()
+        public List<LoadCitiesQueryResult> Execute(Guid CountryId)
         {
-            List<LoadCitiesQueryResult> res = databaseService.Cities.GetAll()
+            List<LoadCitiesQueryResult> res = databaseService.Cities.Where(obj=>obj.CountryId== CountryId)
                                                             .Select(obj => new LoadCitiesQueryResult(obj))
                                                             .OrderBy(obj => obj.Name).ToList();
 

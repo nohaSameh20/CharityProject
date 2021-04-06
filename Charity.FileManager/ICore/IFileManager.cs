@@ -18,5 +18,6 @@ namespace CharityProject.FileManager.ICore
         string UploadImage(string pathContainName, byte[] imageByte);
         string UploadImage(string name, string extension, string image, string path = null);
         string ResizeAndSaveImage(string pathContainName, ImageType type, int maxWeightInKB, int maxHeight, int maxWidth, Byte[] imageByte, long compressionRete = 100L);
+        string UploadImg(string name, string extension, string image, string path);
     }
 }

@@ -6,6 +6,6 @@ namespace Charity.Application.Countries
 {
     public interface ILoadCitiesQuery
     {
-        List<LoadCitiesQueryResult> Execute();
+        List<LoadCitiesQueryResult> Execute(Guid CountryId);
     }
 }

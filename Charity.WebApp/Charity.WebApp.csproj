@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>3c132497-661a-44e4-a9cd-65ceace222a9</UserSecretsId>
   </PropertyGroup>
 
 
@@ -21,7 +22,7 @@
 
 
   <ItemGroup>
-    <Folder Include="Data\Charity\Images\" />
+    <Folder Include="AssetsImages\Charity\Images\" />
   </ItemGroup>
 
 </Project>

@@ -27,6 +27,7 @@ namespace Charity.Application
             if (model == null || !model.ValidationState.IsValid)
                 throw new ValidationException(BusinessMessages.Add_New_Case_not_valid, model.ValidationState.ValidationResults);
 
+            
             Charity.Domain.Cases.Case _case = new Charity.Domain.Cases.Case()
             {
                 Id = Guid.NewGuid(),

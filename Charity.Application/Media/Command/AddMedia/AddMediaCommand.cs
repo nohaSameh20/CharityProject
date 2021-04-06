@@ -40,7 +40,7 @@ namespace Charity.Application.Media
 
             if (model.Type == CharityProject.Domain.Common.EventType.image)
             {
-                var imagePath = fileManagerService.UploadImage(Guid.NewGuid().ToString(), "JPEG", model.Image, "Charity/Images");
+                var imagePath = fileManagerService.UploadImg(Guid.NewGuid().ToString(), "JPEG", model.Image, "Charity/Images");
 
                 if (imagePath == null)
                     throw new BusinessException(BusinessMessages.Image_not_saved, "ImageNotSaved");

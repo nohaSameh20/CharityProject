@@ -1,0 +1,9 @@
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\bin\Release\netcoreapp2.2\Charity.Common.deps.json
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\bin\Release\netcoreapp2.2\Charity.Common.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\bin\Release\netcoreapp2.2\Charity.Common.pdb
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Release\netcoreapp2.2\Charity.Common.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Release\netcoreapp2.2\Charity.Common.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Release\netcoreapp2.2\Charity.Common.AssemblyInfo.cs
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Release\netcoreapp2.2\Charity.Common.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Release\netcoreapp2.2\Charity.Common.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Release\netcoreapp2.2\Charity.Common.pdb

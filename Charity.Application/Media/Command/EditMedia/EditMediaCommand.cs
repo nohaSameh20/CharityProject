@@ -35,7 +35,7 @@ namespace Charity.Application.Media
             if (!string.IsNullOrEmpty(model.Image))
             {
                 fileManagerService.DeleteFile(model.Image);
-                var imagePath = fileManagerService.UploadImage(Guid.NewGuid().ToString(), "JPEG", model.Image, "Facility/Logo");
+                var imagePath = fileManagerService.UploadImg(Guid.NewGuid().ToString(), "JPEG", model.Image, "Facility/Logo");
 
                 if (imagePath == null)
                     throw new BusinessException(BusinessMessages.Image_not_saved, "ImageNotSaved");
