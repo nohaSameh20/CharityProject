@@ -2,7 +2,16 @@
 @model PrivacyModel
 @{
     ViewData["Title"] = "Privacy Policy";
+     
 }
+@using Charity.WebApp.Resources;
+@inject LocService SharedLocalizer;
 <h1>@ViewData["Title"]</h1>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+
+<a asp-page="Privacy" asp-route-culture="en-US">English</a>|
+<a asp-page="Privacy" asp-route-culture="ar-EG">Arabic</a>|
+<a asp-page="Privacy" asp-route-culture="it-IT">Italy</a>|
+@SharedLocalizer.GetLocalizedHtmlString("Home")

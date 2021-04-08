@@ -3,6 +3,8 @@
 @{
     Layout = "~/Pages/Shared/AdminLayout.cshtml";
 }
+@using Charity.WebApp.Resources;
+@inject LocService SharedLocalizer;
 @{int i = 1;}
 <style>
     .thead {
@@ -25,16 +27,16 @@
 </style>
 <div class="container" style="padding-top:100px;padding-bottom: 200px;">
     <div class="row col-md-12 col-md-offset-2 custyle">
-        <button id='myButton' onClick='redirectToAdd()' class="btn " style="position: absolute; right: 13px; top: -49px;outline:none"><i class="fa fa-plus"></i> Add</button>
+        <button id='myButton' onClick='redirectToAdd()' class="btn " style="position: absolute; right: 13px; top: -49px;outline:none"><i class="fa fa-plus"></i>@SharedLocalizer.GetLocalizedHtmlString("Add")</button>
         <table class="table">
             <thead class="thead">
                 <tr>
                     <th>#</th>
-                    <th>Type</th>
-                    <th>Image</th>
-                    <th>URL</th>
-                    <th>Description</th>
-                    <th class="text-center">Action</th>
+                    <th>@SharedLocalizer.GetLocalizedHtmlString("Type")</th>
+                    <th>@SharedLocalizer.GetLocalizedHtmlString("Image")</th>
+                    <th>@SharedLocalizer.GetLocalizedHtmlString("Vedio")</th>
+                    <th>@SharedLocalizer.GetLocalizedHtmlString("Description")</th>
+                    <th class="text-center">@SharedLocalizer.GetLocalizedHtmlString("Action")</th>
                 </tr>
             </thead>
             <tbody>
@@ -58,7 +60,7 @@
                         <td>@item.Description</td>
                         <td class="text-center">
                             @*<a class='btn btn-xs' asp-page="/ManageAdmin/EditEvent" asp-route-Id="@item.Id" asp-page-handler="Edit" ><span class="fa fa-edit"></span> Edit</a>*@
-                            <a asp-page="/ManageAdmin/ViewAllEvents" asp-route-Id="@item.Id" asp-page-handler="Delete" class="btn  btn-xs"><span class="fa fa-trash"></span> Del</a>
+                            <a asp-page="/ManageAdmin/ViewAllEvents" asp-route-Id="@item.Id" asp-page-handler="Delete" class="btn  btn-xs"><span class="fa fa-trash"></span></a>
                         </td>
                     </tr>
 
@@ -69,7 +71,7 @@
             <tfoot>
                 @if (Model.Result.Count == 0)
                 {
-                    <tr><td>No Data To Be Shown...........</td></tr>
+                    <tr><td>@SharedLocalizer.GetLocalizedHtmlString("NoData")</td></tr>
                 }
             </tfoot>
         </table>

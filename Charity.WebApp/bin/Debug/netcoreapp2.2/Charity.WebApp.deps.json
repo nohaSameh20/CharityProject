@@ -35,6 +35,14 @@
         "runtime": {
           "Charity.WebApp.dll": {}
         },
+        "resources": {
+          "ar-EG/Charity.WebApp.resources.dll": {
+            "locale": "ar-EG"
+          },
+          "it-IT/Charity.WebApp.resources.dll": {
+            "locale": "it-IT"
+          }
+        },
         "compile": {
           "Charity.WebApp.dll": {}
         }

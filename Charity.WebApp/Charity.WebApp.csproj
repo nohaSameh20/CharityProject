@@ -6,6 +6,10 @@
     <UserSecretsId>3c132497-661a-44e4-a9cd-65ceace222a9</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Remove="Resources\SharedResource.en-US.resx" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
@@ -23,6 +27,11 @@
 
   <ItemGroup>
     <Folder Include="AssetsImages\Charity\Images\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="Resources\SharedResource.en-US.resx" />
   </ItemGroup>
 
 </Project>

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Charity.Application.Resources {
+namespace Charity.Application.ResourcesMessages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Charity.Application.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Charity.Application.Resources.BusinessMessages", typeof(BusinessMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Charity.Application.ResourcesMessages.BusinessMessages", typeof(BusinessMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

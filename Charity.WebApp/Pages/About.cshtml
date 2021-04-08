@@ -1,9 +1,10 @@
 ﻿@page
 @model Charity.WebApp.Pages.AboutModel
 @{
+    ViewData["Title"] = "About page";
 }
-
-
+@using Charity.WebApp.Resources;
+@inject LocService SharedLocalizer;
 <!-- Page Banner Section -->
 <section class="page-banner">
     <div class="image-layer lazy-image" data-bg="url('images/background/bg-banner-1.jpg')"></div>
@@ -12,8 +13,8 @@
     <div class="auto-container">
         <h1>About Us</h1>
         <ul class="bread-crumb clearfix">
-            <li><a asp-page="/Index">Home</a></li>
-            <li class="active">About Us</li>
+            <li><a asp-page="/Index">@SharedLocalizer.GetLocalizedHtmlString("Home")</a></li>
+            <li class="active">@SharedLocalizer.GetLocalizedHtmlString("About")</li>
         </ul>
     </div>
 
@@ -29,10 +30,10 @@
             <div class="left-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner">
                     <div class="sec-title">
-                        <div class="sub-title">About Us</div>
-                        <h2>Please Rise your Helping Hand</h2>
-                        <div class="text" style="margin-top: 61px;text-align: inherit;">
-                            <span style="color: #20914b; font-size: 22px;font-weight: bold;">We are Non-profit organisation</span> , We strive to spread goodness and human values among the Arab youth in Europe, as our contribution towards the society in which we live ... We carry good to all ...
+                        <div class="sub-title">@SharedLocalizer.GetLocalizedHtmlString("About")</div>
+                        <h2>@SharedLocalizer.GetLocalizedHtmlString("PleaseRiseYourHelpingHand")</h2>
+                        <div class="text" style="text-align: inherit;">
+                            <span style="color: #20914b; font-size: 22px;font-weight: bold;">@SharedLocalizer.GetLocalizedHtmlString("about_head")</span> , @SharedLocalizer.GetLocalizedHtmlString("AboutContent")
                         </div>
                         @*<div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a></div>*@
                     </div>
@@ -42,8 +43,7 @@
             <div class="right-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner">
                     <div class="images clearfix">
-
-                        <img src="~/images/about.jpg" />
+                        <img src="~/images/about_us.png" />
                     </div>
                 </div>
             </div>

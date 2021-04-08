@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Charity.Application.Resources {
+namespace Charity.Application.ResourcesMessages {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Charity.Application.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class BusinessMessagesAr {
+    internal class BusinessMessagesIT {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal BusinessMessagesAr() {
+        internal BusinessMessagesIT() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Charity.Application.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Charity.Application.Resources.BusinessMessagesAr", typeof(BusinessMessagesAr).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Charity.Application.ResourcesMessages.BusinessMessagesIT", typeof(BusinessMessagesIT).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,16 @@ namespace Charity.Application.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to اضافه وسائط غير صالح.
+        ///   Looks up a localized string similar to Aggiungi nuovo caso non valido.
+        /// </summary>
+        internal static string Add_New_Case_not_valid {
+            get {
+                return ResourceManager.GetString("Add_New_Case_not_valid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aggiungi nuovo supporto non valido.
         /// </summary>
         internal static string Add_New_Media_not_valid {
             get {
@@ -70,7 +79,7 @@ namespace Charity.Application.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to إضافة المستخدم غير صالح.
+        ///   Looks up a localized string similar to Add user not valid.
         /// </summary>
         internal static string Add_user_not_valid {
             get {
@@ -79,7 +88,7 @@ namespace Charity.Application.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to لم يتم حفظ الملف.
+        ///   Looks up a localized string similar to File non salvato.
         /// </summary>
         internal static string File_not_saved {
             get {
@@ -88,7 +97,16 @@ namespace Charity.Application.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ايميل غير صحيح.
+        ///   Looks up a localized string similar to Immagine non salvata.
+        /// </summary>
+        internal static string Image_not_saved {
+            get {
+                return ResourceManager.GetString("Image_not_saved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to email errata.
         /// </summary>
         internal static string Incorrect_Email {
             get {
@@ -97,7 +115,7 @@ namespace Charity.Application.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to كلمه مرور غير صحيحه.
+        ///   Looks up a localized string similar to Password errata.
         /// </summary>
         internal static string Incorrect_Password {
             get {
@@ -106,7 +124,7 @@ namespace Charity.Application.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to بيانات غير صالحة.
+        ///   Looks up a localized string similar to Dati non validi.
         /// </summary>
         internal static string Invalid_data {
             get {
@@ -115,7 +133,16 @@ namespace Charity.Application.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to المستخدم موجود بالفعل.
+        ///   Looks up a localized string similar to Spiacente password non valida.
+        /// </summary>
+        internal static string Sorry_password_not_valid {
+            get {
+                return ResourceManager.GetString("Sorry_password_not_valid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to L&apos;utente esiste.
         /// </summary>
         internal static string User_exist {
             get {

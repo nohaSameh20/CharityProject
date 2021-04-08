@@ -1,5 +1,7 @@
 ﻿@inject IHttpContextAccessor HttpContextAccessor;
 @using Microsoft.AspNetCore.Http;
+@using Charity.WebApp.Resources;
+@inject LocService SharedLocalizer;
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -72,7 +74,7 @@
                     <div class="inner clearfix">
                         <div class="top-left">
                             <ul class="social-links clearfix">
-                                <li class="social-title">Follow Us:</li>
+                                <li class="social-title">@SharedLocalizer.GetLocalizedHtmlString("FollowUs"):</li>
                                 <li><a href="https://www.facebook.com/GiovaniXilBene/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://www.youtube.com/channel/UCoP85Zm67IBL10vI_-f6zZQ?fbclid=IwAR0CLQWYqgurv8XEYlrmmrP9XnsCROAc-MfeUcIv-ddCtkuZrXZJVgcIxBc" target="_blank"><span class="fab fa-youtube"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -85,11 +87,11 @@
                                 {
                                     <li>
                                         <a data-toggle="tooltip" title="Logout" class="theme-btn search-toggler" asp-page="/Login" asp-page-handler="Logout">
-                                            LogOut
+                                            @SharedLocalizer.GetLocalizedHtmlString("LogOut")
                                         </a>
                                     </li>
 
-                                    <li>Hi: &nbsp;<span>@HttpContextAccessor.HttpContext.Session.GetString("UserName")</span></li>
+                                    <li>@SharedLocalizer.GetLocalizedHtmlString("Hi"): &nbsp;<span>@HttpContextAccessor.HttpContext.Session.GetString("UserName")</span></li>
                                 }
                                 <li><a href="mailto:nohasameh583@gmail.com"><span class="icon fa fa-envelope"></span> Email: &nbsp;giovanixbene@gmail.com</a></li>
                             </ul>
@@ -104,7 +106,7 @@
                     <div class="inner-container clearfix">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo" style="background:none"><a  title="Shabab-Fe-Elkheir"><img src="~/images/logo.jpg" alt="Shabab-Fe-Elkheir" title="Shabab-Fe-Elkheir"></a></div>
+                            <div class="logo" style="background:none"><a title="Shabab-Fe-Elkheir"><img src="~/images/logo.jpg" alt="'@SharedLocalizer.GetLocalizedHtmlString("ShababFeElkheir")'" title="'@SharedLocalizer.GetLocalizedHtmlString("ShababFeElkheir")'"></a></div>
                         </div>
 
                         <!--Nav Box-->
@@ -117,23 +119,24 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <form method="post" name="Form">
                                         <ul class="navigation clearfix">
-                                            <li class="current"><a asp-page="ViewAllEvents">Events</a></li>
-                                            <li><a asp-page="/cases">Cases</a></li>
+                                            <li class="current"><a asp-page="ViewAllEvents">@SharedLocalizer.GetLocalizedHtmlString("Events")</a></li>
+                                            <li><a asp-page="/cases">@SharedLocalizer.GetLocalizedHtmlString("Cases")</a></li>
                                             @if (@HttpContextAccessor.HttpContext.Session.GetString("UserName") == null)
                                             {
                                                 <li>
-                                                    <a asp-page="/Login">Login</a>
+                                                    <a asp-page="/Login">@SharedLocalizer.GetLocalizedHtmlString("Login")</a>
                                                 </li>
 
                                             }
                                             <li class="dropdown">
-                                                <a>Language</a>
+                                                <a>@SharedLocalizer.GetLocalizedHtmlString("Language")</a>
                                                 <ul>
-                                                    <li><a href="lang.html">English</a></li>
-                                                    <li><a href="lang.html">Arabic</a></li>
-                                                    <li><a href="lang.html">Italy</a></li>
+                                                    <li><a asp-route-culture="en-US">@SharedLocalizer.GetLocalizedHtmlString("English")</a></li>
+                                                    <li><a asp-route-culture="ar-EG">@SharedLocalizer.GetLocalizedHtmlString("Arabic")</a></li>
+                                                    <li><a asp-route-culture="it-IT">@SharedLocalizer.GetLocalizedHtmlString("Italy")</a></li>
                                                 </ul>
                                             </li>
+
 
 
                                         </ul>
@@ -141,7 +144,7 @@
 
                                 </div>
                             </nav>
-                             
+
                         </div>
                     </div>
                 </div>
@@ -218,7 +221,7 @@
                     <!--Scroll to top-->
                     <div class="clearfix">
                         <div class="copyright">
-                            <p style="text-align: center;"> Noha Sameh  &copy;</p>
+                            <p style="text-align: center;"> @SharedLocalizer.GetLocalizedHtmlString("DesignerName")  &copy;</p>
                         </div>
                         <ul class="bottom-links">
                         </ul>

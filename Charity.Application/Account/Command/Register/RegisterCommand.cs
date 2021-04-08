@@ -1,4 +1,4 @@
-﻿using Charity.Application.Resources;
+﻿using Charity.Application.ResourcesMessages;
 using Charity.Domain.Enums;
 using CharityProject.Application.Interfaces;
 using CharityProject.Common.Exceptions;

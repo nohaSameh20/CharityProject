@@ -5,7 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Charity.Application.Media;
+using Charity.WebApp.Resources;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -18,11 +21,14 @@ namespace Charity.WebApp.Pages
         public IGetAllVediosQuery getAllVediosQuery;
         public List<GetAllPhotosQueryResult> result;
         public List<GetAllVediosQueryResult> vedioResult;
+        private readonly LocService SharedLocalizer;
         public string Base64;
-        public IndexModel(IGetAllPhotosQuery getAllPhotosQuery, IGetAllVediosQuery getAllVediosQuery)
+        public IndexModel(IGetAllPhotosQuery getAllPhotosQuery, IGetAllVediosQuery getAllVediosQuery, LocService SharedLocalizer)
         {
             this.getAllPhotosQuery = getAllPhotosQuery;
             this.getAllVediosQuery = getAllVediosQuery;
+            this.SharedLocalizer = SharedLocalizer;
+
         }
         public void OnGet()
         {
@@ -44,5 +50,7 @@ namespace Charity.WebApp.Pages
             }
             vedioResult = getAllVediosQuery.Execute();
         }
+
+         
     }
 }

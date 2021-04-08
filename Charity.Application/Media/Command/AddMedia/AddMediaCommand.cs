@@ -1,5 +1,4 @@
-﻿using Charity.Application.Resources;
-using CharityProject.Common.Exceptions;
+﻿using CharityProject.Common.Exceptions;
 using CharityProject.FileManager.ICore;
 using System;
 using Charity.Domain.Medias;
@@ -9,6 +8,7 @@ using System.Collections.Generic;
 using System.Text;
 using CharityProject.Common.IService;
 using CharityProject.Application.Interfaces;
+using Charity.Application.ResourcesMessages;
 
 namespace Charity.Application.Media
 {

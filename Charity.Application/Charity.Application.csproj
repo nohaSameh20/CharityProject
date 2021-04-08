@@ -18,17 +18,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\BusinessMessages.Designer.cs">
+    <Compile Update="ResourcesMessages\BusinessMessages.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BusinessMessages.resx</DependentUpon>
     </Compile>
-    <Compile Update="Resources\BusinessMessagesIT.Designer.cs">
+    <Compile Update="ResourcesMessages\BusinessMessagesIT.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BusinessMessagesIT.resx</DependentUpon>
     </Compile>
-    <Compile Update="Resources\BusinessMessagesAr.Designer.cs">
+    <Compile Update="ResourcesMessages\BusinessMessagesAr.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BusinessMessagesAr.resx</DependentUpon>
@@ -36,15 +36,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\BusinessMessages.resx">
+    <EmbeddedResource Update="ResourcesMessages\BusinessMessages.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BusinessMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\BusinessMessagesIT.resx">
+    <EmbeddedResource Update="ResourcesMessages\BusinessMessagesIT.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BusinessMessagesIT.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\BusinessMessagesAr.resx">
+    <EmbeddedResource Update="ResourcesMessages\BusinessMessagesAr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BusinessMessagesAr.Designer.cs</LastGenOutput>
     </EmbeddedResource>

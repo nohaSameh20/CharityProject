@@ -117,7 +117,172 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutContent" xml:space="preserve">
+    <value>We strive to spread goodness and human values among the Arab youth in Europe, as our contribution towards the society in which we live ... We carry good to all ...</value>
+  </data>
+  <data name="about_head" xml:space="preserve">
+    <value>We are Non-profit organization</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddNewCase" xml:space="preserve">
+    <value>Add New Case</value>
+  </data>
+  <data name="AddNewEvent" xml:space="preserve">
+    <value>Add New Event</value>
+  </data>
+  <data name="AddressOne" xml:space="preserve">
+    <value>Address One</value>
+  </data>
+  <data name="AddressTwo" xml:space="preserve">
+    <value>Address Two</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Case Age</value>
+  </data>
+  <data name="Albums" xml:space="preserve">
+    <value>Albums</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="Cases" xml:space="preserve">
+    <value>Cases</value>
+  </data>
+  <data name="Case_Description_Details" xml:space="preserve">
+    <value>Case Description</value>
+  </data>
+  <data name="Case_Name" xml:space="preserve">
+    <value>Case Name...</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DesignerName" xml:space="preserve">
+    <value>Noha Sameh</value>
+  </data>
+  <data name="DonateNow" xml:space="preserve">
+    <value>Donate Now</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="EnterImageDescription" xml:space="preserve">
+    <value>Enter Image Description...</value>
+  </data>
+  <data name="EnterURLOfVedio" xml:space="preserve">
+    <value>Enter URL Of Vedio...</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Follow Us</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Hi" xml:space="preserve">
+    <value>Hi</value>
+  </data>
   <data name="Home" xml:space="preserve">
-    <value>الصفحه الرئيسيه</value>
+    <value>Home</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>LogOut</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Muslim" xml:space="preserve">
+    <value>Muslim</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>No Data To Be Shown .........</value>
+  </data>
+  <data name="NonMuslim" xml:space="preserve">
+    <value>NonMuslim</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Case Phone</value>
+  </data>
+  <data name="PleaseRiseYourHelpingHand" xml:space="preserve">
+    <value>Please Rise Your Helping Hand</value>
+  </data>
+  <data name="region" xml:space="preserve">
+    <value>Case Region</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Religion" xml:space="preserve">
+    <value>Religione</value>
+  </data>
+  <data name="Sender_Address" xml:space="preserve">
+    <value>Sender Address</value>
+  </data>
+  <data name="Sender_Information" xml:space="preserve">
+    <value>Sender Information</value>
+  </data>
+  <data name="Sender_Name" xml:space="preserve">
+    <value>Sender Name</value>
+  </data>
+  <data name="Sender_Phone" xml:space="preserve">
+    <value>Sender Phone</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="ShababFeElkheir" xml:space="preserve">
+    <value>Shabab Fe Elkheir</value>
+  </data>
+  <data name="ShowMore" xml:space="preserve">
+    <value>Show More</value>
+  </data>
+  <data name="ThePeople" xml:space="preserve">
+    <value>ThePeople</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Vedio" xml:space="preserve">
+    <value>Vedio</value>
+  </data>
+  <data name="Vedios" xml:space="preserve">
+    <value>Vedios</value>
+  </data>
+  <data name="We_accept_only_sick_cases" xml:space="preserve">
+    <value>We accept only sick cases</value>
+  </data>
+  <data name="YouCanHelp" xml:space="preserve">
+    <value>You Can Help</value>
   </data>
 </root>

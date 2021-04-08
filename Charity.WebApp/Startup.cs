@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Charity.Application.Users.Auth;
 using Charity.Jwt.DI;
+using Charity.WebApp.Resources;
 using CharityProject.Application;
 using CharityProject.Common.Core;
 using CharityProject.FileManager.Core;
@@ -47,7 +48,10 @@ namespace Charity.WebApp
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-           
+            RegisterLayers(services);
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
             services.AddHttpContextAccessor();
             services.AddDistributedMemoryCache();
             services.AddSession(options =>
@@ -60,26 +64,21 @@ namespace Charity.WebApp
                 o.ExpireTimeSpan = TimeSpan.FromDays(10);
             });
             //Localization
+            services.AddSingleton<LocService>();
             services.AddLocalization(options => options.ResourcesPath = "Resources");
             services.AddMvc()
-                .AddMvcLocalization(opt => { opt.ResourcesPath = "Resources"; })
-                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
-                .AddDataAnnotationsLocalization()
-                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+                 .AddMvcLocalization(opt => { opt.ResourcesPath = "Resources"; })
+                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                 .AddDataAnnotationsLocalization()
+                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.Configure<RequestLocalizationOptions>(opt =>
             {
                 var supportlang = new List<CultureInfo>()
                 {
                     new CultureInfo("en"),
-                    new CultureInfo("ar")
-                    {
-                        DateTimeFormat =  new DateTimeFormatInfo()
-                        {
-                            ShortDatePattern = "yyyy/MM/DD",
-                            LongDatePattern = "yyyy/MM/DD"
-                        }
-                    }
+                    new CultureInfo("ar"),
+                    new CultureInfo("it")
                 };
 
                 opt.DefaultRequestCulture = new RequestCulture("en");
@@ -87,9 +86,7 @@ namespace Charity.WebApp
                 opt.SupportedUICultures = supportlang;
             });
 
-            RegisterLayers(services);
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            
 
         }
 
@@ -106,6 +103,22 @@ namespace Charity.WebApp
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            #region Localization
+            var supportedCultures = new[]
+            {
+                new CultureInfo("en-US"),
+                new CultureInfo("it-IT"),
+                new CultureInfo("ar-EG")
+            };
+             app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("en-US"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            });
+
+            #endregion
+
             app.UseMiddleware(typeof(ErrorHandlingMiddleWare));
             app.UseHttpsRedirection();
             app.UseCookiePolicy();
@@ -120,21 +133,9 @@ namespace Charity.WebApp
                 RequestPath = new PathString("/Data")
             });
 
-            #region Localization
-            var supportedCultures = new[]
-            {
-                new CultureInfo("en"),
-                new CultureInfo("IT"),
-                new CultureInfo("ar")
-            };
-            app.UseRequestLocalization(new RequestLocalizationOptions
-            {
-                DefaultRequestCulture = new RequestCulture("en"),
-                SupportedCultures = supportedCultures,
-                SupportedUICultures = supportedCultures
-            });
+           
         }
-        #endregion
+
 
         private void RegisterLayers(IServiceCollection services)
         {
