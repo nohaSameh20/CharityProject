@@ -118,36 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Add_New_Case_not_valid" xml:space="preserve">
-    <value>Aggiungi nuovo caso non valido</value>
+    <value>Add New Case not valid</value>
   </data>
   <data name="Add_New_Media_not_valid" xml:space="preserve">
-    <value>Aggiungi nuovo supporto non valido</value>
+    <value>Add New Media not valid</value>
   </data>
   <data name="Add_user_not_valid" xml:space="preserve">
     <value>Add user not valid</value>
   </data>
   <data name="File_not_saved" xml:space="preserve">
-    <value>File non salvato</value>
+    <value>File not saved</value>
   </data>
   <data name="Image_not_saved" xml:space="preserve">
-    <value>Immagine non salvata</value>
-  </data>
-  <data name="Incorrect_Case_id" xml:space="preserve">
-    <value>ID caso errato</value>
+    <value>Image not saved</value>
   </data>
   <data name="Incorrect_Email" xml:space="preserve">
-    <value>email errata</value>
+    <value>Incorrect Email</value>
   </data>
   <data name="Incorrect_Password" xml:space="preserve">
-    <value>Password errata</value>
+    <value>Incorrect Password</value>
   </data>
   <data name="Invalid_data" xml:space="preserve">
-    <value>Dati non validi</value>
+    <value>Invalid data</value>
   </data>
   <data name="Sorry_password_not_valid" xml:space="preserve">
-    <value>Spiacente password non valida</value>
+    <value>Sorry password not valid</value>
   </data>
   <data name="User_exist" xml:space="preserve">
-    <value>L'utente esiste</value>
+    <value>User exist</value>
   </data>
 </root>

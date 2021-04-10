@@ -79,11 +79,6 @@ namespace Charity.WebApp.Pages
             }
         }
 
-        public  IActionResult OnGetViewCaseDetails(Guid Id)
-        {
-            HttpContext.Session.SetString("CaseId", Id.ToString());
-            return RedirectToPage("/cause_single");
-        }
 
         
     }

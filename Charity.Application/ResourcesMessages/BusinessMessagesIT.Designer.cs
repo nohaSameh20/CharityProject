@@ -104,7 +104,14 @@ namespace Charity.Application.ResourcesMessages {
                 return ResourceManager.GetString("Image_not_saved", resourceCulture);
             }
         }
-        
+        internal static string Incorrect_Case_id
+        {
+            get
+            {
+                return ResourceManager.GetString("Incorrect_Case_id", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to email errata.
         /// </summary>

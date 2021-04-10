@@ -132,6 +132,9 @@
   <data name="Image_not_saved" xml:space="preserve">
     <value>Image not saved</value>
   </data>
+  <data name="Incorrect_Case_id" xml:space="preserve">
+    <value>Incorrect Case id</value>
+  </data>
   <data name="Incorrect_Email" xml:space="preserve">
     <value>Incorrect Email</value>
   </data>

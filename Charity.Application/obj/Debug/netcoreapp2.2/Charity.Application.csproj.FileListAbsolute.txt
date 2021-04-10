@@ -53,6 +53,9 @@ C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\bin\De
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\bin\Debug\netcoreapp2.2\Charity.Domain.pdb
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\bin\Debug\netcoreapp2.2\Charity.FileManager.pdb
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.ResourcesMessages.BusinessMessages.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.ResourcesMessages.BusinessMessagesAr.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.ResourcesMessages.BusinessMessagesIT.resources
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.csproj.GenerateResource.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.AssemblyInfoInputs.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.AssemblyInfo.cs
@@ -60,6 +63,3 @@ C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\De
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.csproj.CopyComplete
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.dll
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.pdb
-C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.ResourcesMessages.BusinessMessages.resources
-C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.ResourcesMessages.BusinessMessagesAr.resources
-C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.ResourcesMessages.BusinessMessagesIT.resources

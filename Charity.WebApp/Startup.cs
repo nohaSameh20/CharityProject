@@ -48,6 +48,14 @@ namespace Charity.WebApp
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            var cookieOptions = new Microsoft.AspNetCore.Http.CookieOptions()
+            {
+                Path = "/",
+                HttpOnly = false,
+                IsEssential = true, //<- there
+                Expires = DateTime.Now.AddMonths(1),
+            };
+
             RegisterLayers(services);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

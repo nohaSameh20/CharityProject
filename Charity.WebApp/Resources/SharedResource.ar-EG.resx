@@ -138,17 +138,29 @@
   <data name="AddNewEvent" xml:space="preserve">
     <value>اضافه حدث جديد</value>
   </data>
+  <data name="Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
   <data name="AddressOne" xml:space="preserve">
     <value>عنوان الحاله الاول...</value>
   </data>
   <data name="AddressTwo" xml:space="preserve">
     <value>عنوان الحاله الثانيه...</value>
   </data>
+  <data name="Address_Two" xml:space="preserve">
+    <value>العنوان الثاني</value>
+  </data>
+  <data name="Addres_One" xml:space="preserve">
+    <value>العنوان الأول</value>
+  </data>
   <data name="Age" xml:space="preserve">
     <value>عمر الحاله...</value>
   </data>
   <data name="Albums" xml:space="preserve">
     <value>الالبومات</value>
+  </data>
+  <data name="AlreadyHaveAnAccount" xml:space="preserve">
+    <value>هل لديك حساب؟</value>
   </data>
   <data name="Arabic" xml:space="preserve">
     <value>العربيه</value>
@@ -159,14 +171,29 @@
   <data name="Case_Description_Details" xml:space="preserve">
     <value>وصف الحاله...</value>
   </data>
+  <data name="Case_Details" xml:space="preserve">
+    <value>تفاصيل الحالة</value>
+  </data>
+  <data name="Case_Information" xml:space="preserve">
+    <value>معلومات الحالة</value>
+  </data>
   <data name="Case_Name" xml:space="preserve">
     <value>اسم الحاله...</value>
+  </data>
+  <data name="Confirm_password" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
   </data>
   <data name="Contacts" xml:space="preserve">
     <value>جهات الاتصال</value>
   </data>
   <data name="ContactUs" xml:space="preserve">
     <value>تواصل معنا</value>
+  </data>
+  <data name="Contact_Us" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="Create_an_account" xml:space="preserve">
+    <value>انشئ حساب؟</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>وصف الصوره</value>
@@ -176,6 +203,12 @@
   </data>
   <data name="DonateNow" xml:space="preserve">
     <value>تبرع الأن</value>
+  </data>
+  <data name="Download_Case_Attachments" xml:space="preserve">
+    <value>تنزيل مرفقات الحالة</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>عناوين البريد الإلكترونيه</value>
   </data>
   <data name="English" xml:space="preserve">
     <value>الانجليزيه</value>
@@ -192,11 +225,17 @@
   <data name="Female" xml:space="preserve">
     <value>انثي</value>
   </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>الاسم الاول</value>
+  </data>
   <data name="FollowUs" xml:space="preserve">
     <value>تابعنا</value>
   </data>
   <data name="Gender" xml:space="preserve">
     <value>الجنس</value>
+  </data>
+  <data name="Get_In_Touch" xml:space="preserve">
+    <value>ابقى على تواصل معنا</value>
   </data>
   <data name="Hi" xml:space="preserve">
     <value>اهلا</value>
@@ -213,6 +252,12 @@
   <data name="Language" xml:space="preserve">
     <value>اللغه</value>
   </data>
+  <data name="LastName" xml:space="preserve">
+    <value>الاسم الاخير</value>
+  </data>
+  <data name="Leave_a_Message" xml:space="preserve">
+    <value>اترك رسالة</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>تسجيل الدخول</value>
   </data>
@@ -225,14 +270,29 @@
   <data name="Muslim" xml:space="preserve">
     <value>مسلم</value>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
   <data name="NoData" xml:space="preserve">
     <value>لا يوجد بيانات لعرضها.......</value>
   </data>
   <data name="NonMuslim" xml:space="preserve">
     <value>غير مسلم</value>
   </data>
+  <data name="Our_Cases" xml:space="preserve">
+    <value>حالاتنا</value>
+  </data>
+  <data name="Our_Location" xml:space="preserve">
+    <value>موقعنا</value>
+  </data>
+  <data name="Our_Phones" xml:space="preserve">
+    <value>هواتفنا</value>
+  </data>
   <data name="Phone" xml:space="preserve">
     <value>موبايل الحاله...</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>رقم الهاتف</value>
   </data>
   <data name="PleaseRiseYourHelpingHand" xml:space="preserve">
     <value>من فضلك ارفع يد العون</value>
@@ -246,6 +306,12 @@
   <data name="Religion" xml:space="preserve">
     <value>الدين</value>
   </data>
+  <data name="Select_Country" xml:space="preserve">
+    <value>حدد الدولة</value>
+  </data>
+  <data name="Select_Nationality" xml:space="preserve">
+    <value>اختر الجنسية</value>
+  </data>
   <data name="Sender_Address" xml:space="preserve">
     <value>عنوان المرسل</value>
   </data>
@@ -258,6 +324,9 @@
   <data name="Sender_Phone" xml:space="preserve">
     <value>موبايل المرسل</value>
   </data>
+  <data name="Send_Message" xml:space="preserve">
+    <value>أرسل رسالة</value>
+  </data>
   <data name="Services" xml:space="preserve">
     <value>خدماتنا</value>
   </data>
@@ -267,8 +336,11 @@
   <data name="ShowMore" xml:space="preserve">
     <value>اعرض المزيد</value>
   </data>
-  <data name="String1" xml:space="preserve">
-    <value />
+  <data name="Sign_In" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Sign_Up" xml:space="preserve">
+    <value>اشتراك</value>
   </data>
   <data name="ThePeople" xml:space="preserve">
     <value>الناس</value>
@@ -285,7 +357,19 @@
   <data name="We_accept_only_sick_cases" xml:space="preserve">
     <value>نحن نقبل فقط الحالات المرضية</value>
   </data>
+  <data name="Write_your_message" xml:space="preserve">
+    <value>اكتب رسالتك</value>
+  </data>
   <data name="YouCanHelp" xml:space="preserve">
     <value>يمكنك مساعده</value>
+  </data>
+  <data name="Your_Email" xml:space="preserve">
+    <value>ادخل بريدك الالكتروني</value>
+  </data>
+  <data name="Your_Name" xml:space="preserve">
+    <value>ادخل اسمك</value>
+  </data>
+  <data name="Your_password" xml:space="preserve">
+    <value>كلمة مرورك</value>
   </data>
 </root>

@@ -126,6 +126,9 @@
   <data name="File_not_saved" xml:space="preserve">
     <value>لم يتم حفظ الملف</value>
   </data>
+  <data name="Incorrect_Case_id" xml:space="preserve">
+    <value>معرف حالة غير صحيح</value>
+  </data>
   <data name="Incorrect_Email" xml:space="preserve">
     <value>ايميل غير صحيح</value>
   </data>

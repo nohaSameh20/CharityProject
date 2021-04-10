@@ -23,4 +23,3 @@ C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Debug\n
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.csproj.CoreCompileInputs.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.dll
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.pdb
-C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Common\obj\Debug\netcoreapp2.2\Charity.Common.csprojAssemblyReference.cache

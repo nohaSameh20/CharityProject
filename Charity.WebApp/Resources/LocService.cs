@@ -18,6 +18,7 @@ namespace Charity.WebApp.Resources
             var type = typeof(SharedResource);
             var assemblyName = new AssemblyName(type.GetTypeInfo().Assembly.FullName);
             _localizer = factory.Create("SharedResource", assemblyName.Name);
+
         }
 
          

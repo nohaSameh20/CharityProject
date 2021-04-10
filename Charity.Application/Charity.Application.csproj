@@ -17,37 +17,4 @@
     <ProjectReference Include="..\Charity.FileManager\Charity.FileManager.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="ResourcesMessages\BusinessMessages.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>BusinessMessages.resx</DependentUpon>
-    </Compile>
-    <Compile Update="ResourcesMessages\BusinessMessagesIT.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>BusinessMessagesIT.resx</DependentUpon>
-    </Compile>
-    <Compile Update="ResourcesMessages\BusinessMessagesAr.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>BusinessMessagesAr.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="ResourcesMessages\BusinessMessages.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>BusinessMessages.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="ResourcesMessages\BusinessMessagesIT.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>BusinessMessagesIT.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="ResourcesMessages\BusinessMessagesAr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>BusinessMessagesAr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-
 </Project>

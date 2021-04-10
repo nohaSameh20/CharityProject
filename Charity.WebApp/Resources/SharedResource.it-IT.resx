@@ -138,17 +138,29 @@
   <data name="AddNewEvent" xml:space="preserve">
     <value>Aggiungi nuovo evento</value>
   </data>
+  <data name="Address" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
   <data name="AddressOne" xml:space="preserve">
     <value>Indirizzo uno caso</value>
   </data>
   <data name="AddressTwo" xml:space="preserve">
     <value>Indirizzo due caso</value>
   </data>
+  <data name="Address_Two" xml:space="preserve">
+    <value>Indirizzo due</value>
+  </data>
+  <data name="Addres_One" xml:space="preserve">
+    <value>Indirizzo uno</value>
+  </data>
   <data name="Age" xml:space="preserve">
     <value>Età caso</value>
   </data>
   <data name="Albums" xml:space="preserve">
     <value>Fotografie</value>
+  </data>
+  <data name="AlreadyHaveAnAccount" xml:space="preserve">
+    <value>Hai già un account?</value>
   </data>
   <data name="Arabic" xml:space="preserve">
     <value>Araba</value>
@@ -159,14 +171,32 @@
   <data name="Case_Description_Details" xml:space="preserve">
     <value>Descrizione del caso</value>
   </data>
+  <data name="Case_Details" xml:space="preserve">
+    <value>Dettagli del caso</value>
+  </data>
+  <data name="Case_Information" xml:space="preserve">
+    <value>Informazioni sul caso</value>
+  </data>
   <data name="Case_Name" xml:space="preserve">
     <value>Nome caso</value>
+  </data>
+  <data name="Charity_Phones" xml:space="preserve">
+    <value>Il nostro telefono</value>
+  </data>
+  <data name="Confirm_password" xml:space="preserve">
+    <value>Conferma password</value>
   </data>
   <data name="Contacts" xml:space="preserve">
     <value>Contatti</value>
   </data>
   <data name="ContactUs" xml:space="preserve">
     <value>Contattaci</value>
+  </data>
+  <data name="Contact_Us" xml:space="preserve">
+    <value>Contattaci</value>
+  </data>
+  <data name="Create_an_account" xml:space="preserve">
+    <value>Creare un account?</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Descrizione</value>
@@ -176,6 +206,12 @@
   </data>
   <data name="DonateNow" xml:space="preserve">
     <value>Donate adesso</value>
+  </data>
+  <data name="Download_Case_Attachments" xml:space="preserve">
+    <value>Scarica gli allegati del caso</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>indirizzi email</value>
   </data>
   <data name="English" xml:space="preserve">
     <value>Inglese</value>
@@ -192,11 +228,17 @@
   <data name="Female" xml:space="preserve">
     <value>Femmina</value>
   </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nome di battesimo</value>
+  </data>
   <data name="FollowUs" xml:space="preserve">
     <value>Seguici</value>
   </data>
   <data name="Gender" xml:space="preserve">
     <value>Genere</value>
+  </data>
+  <data name="Get_In_Touch" xml:space="preserve">
+    <value>Mettiti in contatto</value>
   </data>
   <data name="Hi" xml:space="preserve">
     <value>Ciao</value>
@@ -212,6 +254,12 @@
   </data>
   <data name="Language" xml:space="preserve">
     <value>linguaggio</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="Leave_a_Message" xml:space="preserve">
+    <value>Lasciate un messaggio</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LocService" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -229,14 +277,29 @@
   <data name="Muslim" xml:space="preserve">
     <value>Musulmano</value>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
   <data name="NoData" xml:space="preserve">
     <value>Nessun dato da mostrare .........</value>
   </data>
   <data name="NonMuslim" xml:space="preserve">
     <value>Non musulmano</value>
   </data>
+  <data name="Our_Cases" xml:space="preserve">
+    <value>I nostri casi</value>
+  </data>
+  <data name="Our_Location" xml:space="preserve">
+    <value>Nostra posizione</value>
+  </data>
+  <data name="Our_Phones" xml:space="preserve">
+    <value>I nostri telefoni</value>
+  </data>
   <data name="Phone" xml:space="preserve">
     <value>Telefono caso</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>Numero di telefono</value>
   </data>
   <data name="PleaseRiseYourHelpingHand" xml:space="preserve">
     <value>Per favore, alza la tua mano amica</value>
@@ -250,6 +313,12 @@
   <data name="Religion" xml:space="preserve">
     <value>Religione</value>
   </data>
+  <data name="Select_Country" xml:space="preserve">
+    <value>Seleziona il paese</value>
+  </data>
+  <data name="Select_Nationality" xml:space="preserve">
+    <value>Seleziona nazionalità</value>
+  </data>
   <data name="Sender_Address" xml:space="preserve">
     <value>Indirizzo mittente</value>
   </data>
@@ -262,6 +331,9 @@
   <data name="Sender_Phone" xml:space="preserve">
     <value>Telefono mittente</value>
   </data>
+  <data name="Send_Message" xml:space="preserve">
+    <value>Invia messaggio</value>
+  </data>
   <data name="Services" xml:space="preserve">
     <value>Servizi</value>
   </data>
@@ -273,6 +345,12 @@
   </data>
   <data name="ShowMore" xml:space="preserve">
     <value>Mostra di più</value>
+  </data>
+  <data name="Sign_In" xml:space="preserve">
+    <value>Registrati</value>
+  </data>
+  <data name="Sign_Up" xml:space="preserve">
+    <value>Iscriviti</value>
   </data>
   <data name="ThePeople" xml:space="preserve">
     <value>Persone</value>
@@ -289,7 +367,19 @@
   <data name="We_accept_only_sick_cases" xml:space="preserve">
     <value>Accettiamo solo casi di malattia</value>
   </data>
+  <data name="Write_your_message" xml:space="preserve">
+    <value>Scrivi il tuo messaggio</value>
+  </data>
   <data name="YouCanHelp" xml:space="preserve">
     <value>Puoi aiutare</value>
+  </data>
+  <data name="Your_Email" xml:space="preserve">
+    <value>La tua email</value>
+  </data>
+  <data name="Your_Name" xml:space="preserve">
+    <value>Il tuo nome</value>
+  </data>
+  <data name="Your_password" xml:space="preserve">
+    <value>La tua password...</value>
   </data>
 </root>

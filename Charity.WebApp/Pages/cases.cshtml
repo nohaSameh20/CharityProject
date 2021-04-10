@@ -15,10 +15,10 @@
     <div class="bottom-rotten-curve"></div>
 
     <div class="auto-container">
-        <h1>Our Cases</h1>
+        <h1>@SharedLocalizer.GetLocalizedHtmlString("Our_Cases")</h1>
         <ul class="bread-crumb clearfix">
-            <li><a asp-page="/Index">Home</a></li>
-            <li class="active">Our Cases</li>
+            <li><a asp-page="/Index">@SharedLocalizer.GetLocalizedHtmlString("Home")</a></li>
+            <li class="active">@SharedLocalizer.GetLocalizedHtmlString("Our_Cases")</li>
         </ul>
     </div>
 
@@ -37,19 +37,20 @@
                     <div class="inner-box wow fadeInUp" data-wow-delay="0ms" style="height: 420px">
                         <div class="donate-info" style="height:20px">
                             @*<div><a download="@item.CaseAttachment"><img src="data:image/png;base64,@item.CaseAttachment"></a></div>*@
-                            <a style="position: absolute; top: 16px; left: 119px;"><p style="font-size: 40px; color: #1a9648; font-weight: bold;">Case:@(i++)</p></a>
+                            <a style="position: absolute; top: 16px;left: 162px;"><p style="font-size: 40px; color: #1a9648; font-weight: bold;">@(i++)</p></a>
                         </div>
                         <div class="lower-content">
 
-                            <h3><a><span style="color:#3aa364;font-weight:bold"> Name:</span>@item.CaseName</a></h3>
-                            <div class="text"><span style="color:#3aa364;font-weight:bold">Phone Number:</span>@item.CasePhoneNumber</div>
-                            <div class="text"><span style="color:#3aa364;font-weight:bold"> Address:</span>@item.FisrtAddress</div>
-                            @*<div class="text"><span style="color:#3aa364;font-weight:bold"> Gender:</span>@item.CaseGender</div>*@
+                            <h3><a><span style="color:#3aa364;font-weight:bold">@SharedLocalizer.GetLocalizedHtmlString("Name"):</span>@item.CaseName</a></h3>
+                             @*<div class="text"><span style="color:#3aa364;font-weight:bold">@SharedLocalizer.GetLocalizedHtmlString("Age"):</span>@item.CaseAge</div>*@
+                            @*<div class="text"><span style="color:#3aa364;font-weight:bold">@SharedLocalizer.GetLocalizedHtmlString("Phone_Number"):</span>@item.CasePhoneNumber</div>*@
+                            <div class="text"><span style="color:#3aa364;font-weight:bold">@SharedLocalizer.GetLocalizedHtmlString("Address"):</span>@item.FisrtAddress</div>
+                            <div class="text"><span style="color:#3aa364;font-weight:bold">@SharedLocalizer.GetLocalizedHtmlString("Gender"):</span>@item.CaseGender</div>
                             @*<div class="text"><span style="color:#3aa364;font-weight:bold"> Age:</span>@item.CaseAge</div>*@
                             @*<div class="text"><span style="color:#3aa364;font-weight:bold"> Religion:</span>@item.Religion</div>*@
 
 
-                            <div class="link-box"><a asp-page="/cause_single" asp-route-Id="@item.Id" asp-page-handler="ViewCaseDetails" class="theme-btn btn-style-two"><span class="btn-title">Read More</span></a></div>
+                            <div class="link-box"><a asp-page="/cause_single" asp-route-Id="@item.Id" class="theme-btn btn-style-two"><span class="btn-title">@SharedLocalizer.GetLocalizedHtmlString("ShowMore")</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -57,7 +58,7 @@
             @if (Model.Result.Count == 0)
             {
                 <div class="cause-block col-lg-12 col-md-6 col-sm-12">
-                    <p style="text-align:center">No Data To Be Shown......</p>
+                    <p style="text-align:center">@SharedLocalizer.GetLocalizedHtmlString("NoData")</p>
                 </div>
             }
         </div>

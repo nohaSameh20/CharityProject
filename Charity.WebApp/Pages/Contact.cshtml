@@ -2,10 +2,13 @@
 @model Charity.WebApp.Pages.ContactModel
 @{
 }
+@using Charity.WebApp.Resources;
+@inject LocService SharedLocalizer;
 <style>
     .contact-section .map-column {
         top: 90px;
     }
+
     .message {
         color: red;
     }
@@ -18,10 +21,10 @@
     <div class="bottom-rotten-curve"></div>
 
     <div class="auto-container">
-        <h1>Contact Us</h1>
+        <h1>@SharedLocalizer.GetLocalizedHtmlString("Contact_Us")</h1>
         <ul class="bread-crumb clearfix">
-            <li><a asp-page="/Index">Home</a></li>
-            <li class="active">Contact Us</li>
+            <li><a asp-page="/Index">@SharedLocalizer.GetLocalizedHtmlString("Home")</a></li>
+            <li class="active">@SharedLocalizer.GetLocalizedHtmlString("Contact_Us")</li>
         </ul>
     </div>
 
@@ -32,9 +35,8 @@
     <div class="auto-container">
 
         <div class="sec-title centered">
-            <div class="sub-title">Contact Us</div>
-            <h2>Get In Touch</h2>
-            <div class="text">Conatc with Us</div>
+            <div class="sub-title">@SharedLocalizer.GetLocalizedHtmlString("Contact_Us")</div>
+            <h2>@SharedLocalizer.GetLocalizedHtmlString("Get_In_Touch")</h2>
         </div>
 
         <div class="info-boxes">
@@ -44,9 +46,10 @@
                     <div class="inner-box wow fadeInUp" data-wow-delay="0ms">
                         <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-1.jpg')"></div>
                         <div class="icon-box"><span class="flaticon-home-location-marker"></span></div>
-                        <h4>Our Location</h4>
+                        <h4>@SharedLocalizer.GetLocalizedHtmlString("FollowUs")</h4>
                         <ul>
-                            <li>16/14 Babor Road, Shyamoly Dhaka.</li>
+                            <li><a href="https://www.facebook.com/GiovaniXilBene/">FaceBook</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCoP85Zm67IBL10vI_-f6zZQ?fbclid=IwAR0CLQWYqgurv8XEYlrmmrP9XnsCROAc-MfeUcIv-ddCtkuZrXZJVgcIxBc">Youtube</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +58,7 @@
                     <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
                         <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-2.jpg')"></div>
                         <div class="icon-box"><span class="flaticon-phone-call"></span></div>
-                        <h4>Phone Number</h4>
+                        <h4>@SharedLocalizer.GetLocalizedHtmlString("Our_Phones")</h4>
                         <ul>
                             <li><a href="tel:(+55)654-545-5418">(+55)  654 - 545 - 5418</a></li>
                             <li><a href="tel:(+55)654-545-1235">(+55)  654 - 545 - 1235</a></li>
@@ -67,7 +70,7 @@
                     <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
                         <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-3.jpg')"></div>
                         <div class="icon-box"><span class="flaticon-email"></span></div>
-                        <h4>Email Address</h4>
+                        <h4>@SharedLocalizer.GetLocalizedHtmlString("Email_Address")</h4>
                         <ul>
                             <li><a href="mailto:nohasameh583@gmail.com">giovanixbene@gmail.com</a></li>
                             <li><a href="mailto:nohasameh583@gmail.com">giovanixbene@gmail.com</a></li>
@@ -79,40 +82,39 @@
 
     </div>
 </section>
-<section class="contact-section " >
+<section class="contact-section ">
     <div class="outer-container clearfix">
 
         <div class="form-column clearfix">
             <div class="inner clearfix">
                 <div class="sec-title centered ">
-                <div class="sub-title">Contact Us</div>
-                <h2>Leave a Message</h2>
-                <div class="text">lorem ipusm</div>
-            </div>
+                    <div class="sub-title">@SharedLocalizer.GetLocalizedHtmlString("Contact_Us")</div>
+                    <h2>@SharedLocalizer.GetLocalizedHtmlString("Leave_a_Message")</h2>
+                </div>
                 <!-- Contact Form-->
                 <div class="contact-form">
                     <form method="post" id="contact-form">
                         <div class="row clearfix">
                             <div class="col-md-6 col-sm-12 form-group">
-                                <input type="text" asp-for="model.Subject" placeholder="Your name">
+                                <input type="text" asp-for="model.Subject" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Your_Name")">
                                 <span class="message" asp-validation-for="model.Subject"></span>
                             </div>
 
                             <div class="col-md-6 col-sm-12 form-group">
-                                <input type="email" asp-for="model.EmailFromAddress" placeholder="Your Email">
+                                <input type="email" asp-for="model.EmailFromAddress" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Your_Email")">
                                 <span class="message" asp-validation-for="model.EmailFromAddress"></span>
                             </div>
 
                             <div class="col-md-12 col-sm-12 form-group">
-                                <textarea asp-for="model.Body" placeholder="Write your message"></textarea>
+                                <textarea asp-for="model.Body" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Write_your_message")"></textarea>
                                 <span class="message" asp-validation-for="model.Body"></span>
                             </div>
 
                             <div class="col-md-12 col-sm-12 form-group text-center">
-                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Send Message</span></button>
+                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">@SharedLocalizer.GetLocalizedHtmlString("Send_Message")</span></button>
                             </div>
                         </div>
-                       </form>
+                    </form>
                 </div>
             </div>
         </div>

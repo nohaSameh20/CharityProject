@@ -138,6 +138,9 @@
   <data name="Albums" xml:space="preserve">
     <value>Albums</value>
   </data>
+  <data name="Already_have_account" xml:space="preserve">
+    <value>Already have an account?</value>
+  </data>
   <data name="Arabic" xml:space="preserve">
     <value>Arabic</value>
   </data>

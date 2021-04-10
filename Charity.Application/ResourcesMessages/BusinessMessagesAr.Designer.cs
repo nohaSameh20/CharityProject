@@ -77,7 +77,14 @@ namespace Charity.Application.ResourcesMessages {
                 return ResourceManager.GetString("Add_user_not_valid", resourceCulture);
             }
         }
-        
+        internal static string Incorrect_Case_id
+        {
+            get
+            {
+                return ResourceManager.GetString("Incorrect_Case_id", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to لم يتم حفظ الملف.
         /// </summary>

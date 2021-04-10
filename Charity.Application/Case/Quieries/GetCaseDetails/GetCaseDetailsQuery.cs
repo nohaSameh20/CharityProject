@@ -4,6 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using CharityProject.Common.Exceptions;
+using Charity.Application.ResourcesMessages;
+
 namespace Charity.Application.Case
 {
     public class GetCaseDetailsQuery : IGetCaseDetailsQuery
@@ -18,6 +21,9 @@ namespace Charity.Application.Case
         public GetCaseDetailsQueryResult Execute(Guid Id)
         {
             var _case = databaseService.Cases.Single(obj => obj.Id == Id);
+            if (Id == null || Id == Guid.Empty)
+                throw new ValidationException(BusinessMessages.Incorrect_Case_id, "IncorrectCaseId");
+
             GetCaseDetailsQueryResult data = new GetCaseDetailsQueryResult()
             {
                 Id = _case.Id,

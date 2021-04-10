@@ -2,11 +2,12 @@
 @model Charity.WebApp.Pages.RegisterModel
 @{
 }
-
+@using Charity.WebApp.Resources;
+@inject LocService SharedLocalizer;
 <!--Register Modal -->
 <style>
-    .form-group span{
-        color:red;
+    .form-group span {
+        color: red;
     }
 </style>
 
@@ -15,88 +16,87 @@
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card card-signin my-5">
                 <div class="card-body">
-                    <h5 class="card-title text-center" style="color: #199849; font-size: 27px; font-weight: bold">Sign Up</h5>
+                    <h5 class="card-title text-center" style="color: #199849; font-size: 27px; font-weight: bold">@SharedLocalizer.GetLocalizedHtmlString("Register")</h5>
                     <div class="d-flex flex-column text-center">
-                         
+
                         <form method="post">
                             <div class="form-group">
-                                <input type="text" class="form-control" asp-for="model.FirstName" id="firstName" placeholder="Your FirstName...">
+                                <input type="text" class="form-control" asp-for="model.FirstName" id="firstName" placeholder="@SharedLocalizer.GetLocalizedHtmlString("FirstName")">
                                 <span asp-validation-for="model.FirstName"></span>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" asp-for="model.LastName" id="lastName" placeholder="Your LastName...">
+                                <input type="text" class="form-control" asp-for="model.LastName" id="lastName" placeholder="@SharedLocalizer.GetLocalizedHtmlString("LastName")">
                                 <span asp-validation-for="model.LastName"></span>
 
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" asp-for="model.Email" id="email" placeholder="Your email address...">
+                                <input type="email" class="form-control" asp-for="model.Email" id="email" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Your_Email")">
                                 <span asp-validation-for="model.Email"></span>
 
                             </div>
                             <div class="form-group">
-                                <input type="tel" class="form-control" asp-for="model.PhoneNumber" id="phoneNumber" placeholder="Your phone number...">
+                                <input type="tel" class="form-control" asp-for="model.PhoneNumber" id="phoneNumber" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Phone_Number")">
                                 <span asp-validation-for="model.PhoneNumber"></span>
 
                             </div>
 
                             <div class="form-group">
-                                <input type="password" class="form-control" asp-for="model.Password" id="password1" placeholder="Your password...">
+                                <input type="password" class="form-control" asp-for="model.Password" id="password1" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Your_password")">
                                 <span asp-validation-for="model.Password"></span>
 
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="confirmPassword" asp-for="model.ConfirmPassword" placeholder="Confirm Password...">
+                                <input type="password" class="form-control" id="confirmPassword" asp-for="model.ConfirmPassword" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Confirm_password")">
                                 <span asp-validation-for="model.ConfirmPassword"></span>
                             </div>
-                                <div class="row">
+                            <div class="row">
 
-                                    <div class="form-group col-md-6">
-                                        <select asp-for="model.CountryId" class="form-control navbar-brand " id="Country-target">
-                                            <option value="" selected>Select Country</option>
-                                            @if (Model.LoadCountry != null)
+                                <div class="form-group col-md-6">
+                                    <select asp-for="model.CountryId" class="form-control navbar-brand " id="Country-target">
+                                        <option value="" selected>@SharedLocalizer.GetLocalizedHtmlString("Select_Country")</option>
+                                        @if (Model.LoadCountry != null)
+                                        {
+                                            @foreach (var item in Model.LoadCountry)
                                             {
-                                                @foreach (var item in Model.LoadCountry)
-                                                {
-                                                    <option value="@item.Id" asp-route-Id="@item.Id">@item.Name</option>
-                                                }
+                                                <option value="@item.Id" asp-route-Id="@item.Id">@item.Name</option>
                                             }
+                                        }
 
-                                        </select>
-                                    </div>
-
-                                    <div class="form-group col-md-6">
-                                        <select asp-for="model.NationalityId" class="form-control navbar-brand " id="sel1">
-                                            <option value="" selected>Select Nationality</option>
-                                            @if (Model.loadNationality != null)
-                                            {
-                                                @foreach (var item in Model.loadNationality)
-                                                {
-                                                    <option value="@item.Id">@item.Name</option>
-                                                }
-                                            }
-
-                                        </select>
-                                    </div>
+                                    </select>
                                 </div>
 
+                                <div class="form-group col-md-6">
+                                    <select asp-for="model.NationalityId" class="form-control navbar-brand " id="sel1">
+                                        <option value="" selected>@SharedLocalizer.GetLocalizedHtmlString("Select_Nationality")</option>
+                                        @if (Model.loadNationality != null)
+                                        {
+                                            @foreach (var item in Model.loadNationality)
+                                            {
+                                                <option value="@item.Id">@item.Name</option>
+                                            }
+                                        }
+
+                                    </select>
+                                </div>
+                            </div>
+
 
                             <div class="form-group">
-                                <input type="text" class="form-control" asp-for="model.PrimaryAddress" id="Address1" placeholder="Your First Address...">
+                                <input type="text" class="form-control" asp-for="model.PrimaryAddress" id="Address1" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Addres_One")">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="Address2" asp-for="model.SecondAddress" placeholder="Your Second Address...">
+                                <input type="text" class="form-control" id="Address2" asp-for="model.SecondAddress" placeholder="@SharedLocalizer.GetLocalizedHtmlString("Address_Two")">
                             </div>
-                            <button type="submit" class="btn btn-success  btn-block btn-round  btn-style-three" style="color:white">Create Account</button>
+                            <button type="submit" class="btn btn-success  btn-block btn-round  btn-style-three" style="color:white">@SharedLocalizer.GetLocalizedHtmlString("Register")</button>
                         </form>
                     </div>
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
-                    <div class="signup-section">Already have an account? <a class="text-info" asp-page="/Login">Login</a></div>
+                    <div class="signup-section">@SharedLocalizer.GetLocalizedHtmlString("AlreadyHaveAnAccount") <a class="text-info" asp-page="/Login">@SharedLocalizer.GetLocalizedHtmlString("Login")</a></div>
                 </div>
 
             </div>
-           
+
         </div>
     </div>
 </div>
- 

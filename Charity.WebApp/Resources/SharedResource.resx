@@ -138,17 +138,29 @@
   <data name="AddNewEvent" xml:space="preserve">
     <value>Add New Event</value>
   </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
   <data name="AddressOne" xml:space="preserve">
     <value>Address One</value>
   </data>
   <data name="AddressTwo" xml:space="preserve">
     <value>Address Two</value>
   </data>
+  <data name="Address_Two" xml:space="preserve">
+    <value>Address Two</value>
+  </data>
+  <data name="Addres_One" xml:space="preserve">
+    <value>Address One</value>
+  </data>
   <data name="Age" xml:space="preserve">
     <value>Case Age</value>
   </data>
   <data name="Albums" xml:space="preserve">
     <value>Albums</value>
+  </data>
+  <data name="AlreadyHaveAnAccount" xml:space="preserve">
+    <value>Already Have An Account?</value>
   </data>
   <data name="Arabic" xml:space="preserve">
     <value>Arabic</value>
@@ -159,14 +171,32 @@
   <data name="Case_Description_Details" xml:space="preserve">
     <value>Case Description</value>
   </data>
+  <data name="Case_Details" xml:space="preserve">
+    <value>Case Details</value>
+  </data>
+  <data name="Case_Information" xml:space="preserve">
+    <value>Case Informations</value>
+  </data>
   <data name="Case_Name" xml:space="preserve">
     <value>Case Name...</value>
+  </data>
+  <data name="Charity_Phones" xml:space="preserve">
+    <value>Our Phones</value>
+  </data>
+  <data name="Confirm_password" xml:space="preserve">
+    <value>Confirm Password</value>
   </data>
   <data name="Contacts" xml:space="preserve">
     <value>Contacts</value>
   </data>
   <data name="ContactUs" xml:space="preserve">
     <value>Contact Us</value>
+  </data>
+  <data name="Contact_Us" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Create_an_account" xml:space="preserve">
+    <value>Create an account?</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Description</value>
@@ -176,6 +206,12 @@
   </data>
   <data name="DonateNow" xml:space="preserve">
     <value>Donate Now</value>
+  </data>
+  <data name="Download_Case_Attachments" xml:space="preserve">
+    <value>Download Case Attachments</value>
+  </data>
+  <data name="Email_Address" xml:space="preserve">
+    <value>Email Addresses</value>
   </data>
   <data name="English" xml:space="preserve">
     <value>English</value>
@@ -192,11 +228,20 @@
   <data name="Female" xml:space="preserve">
     <value>Female</value>
   </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
   <data name="FollowUs" xml:space="preserve">
     <value>Follow Us</value>
   </data>
   <data name="Gender" xml:space="preserve">
     <value>Gender</value>
+  </data>
+  <data name="Get_In_Touch" xml:space="preserve">
+    <value>Get In Touch</value>
+  </data>
+  <data name="Hai già un account?" xml:space="preserve">
+    <value>Already have an account?</value>
   </data>
   <data name="Hi" xml:space="preserve">
     <value>Hi</value>
@@ -213,6 +258,12 @@
   <data name="Language" xml:space="preserve">
     <value>Language</value>
   </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Leave_a_Message" xml:space="preserve">
+    <value>Leave a Message</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
   </data>
@@ -225,14 +276,29 @@
   <data name="Muslim" xml:space="preserve">
     <value>Muslim</value>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
   <data name="NoData" xml:space="preserve">
     <value>No Data To Be Shown .........</value>
   </data>
   <data name="NonMuslim" xml:space="preserve">
     <value>NonMuslim</value>
   </data>
+  <data name="Our_Cases" xml:space="preserve">
+    <value>Our Cases</value>
+  </data>
+  <data name="Our_Location" xml:space="preserve">
+    <value>Our Location</value>
+  </data>
+  <data name="Our_Phones" xml:space="preserve">
+    <value>Our Phones</value>
+  </data>
   <data name="Phone" xml:space="preserve">
     <value>Case Phone</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>Phone Number</value>
   </data>
   <data name="PleaseRiseYourHelpingHand" xml:space="preserve">
     <value>Please Rise Your Helping Hand</value>
@@ -246,6 +312,12 @@
   <data name="Religion" xml:space="preserve">
     <value>Religione</value>
   </data>
+  <data name="Select_Country" xml:space="preserve">
+    <value>Select Country</value>
+  </data>
+  <data name="Select_Nationality" xml:space="preserve">
+    <value>Select Nationality</value>
+  </data>
   <data name="Sender_Address" xml:space="preserve">
     <value>Sender Address</value>
   </data>
@@ -258,6 +330,9 @@
   <data name="Sender_Phone" xml:space="preserve">
     <value>Sender Phone</value>
   </data>
+  <data name="Send_Message" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
   <data name="Services" xml:space="preserve">
     <value>Services</value>
   </data>
@@ -266,6 +341,12 @@
   </data>
   <data name="ShowMore" xml:space="preserve">
     <value>Show More</value>
+  </data>
+  <data name="Sign_In" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="Sign_Up" xml:space="preserve">
+    <value>Sign Up</value>
   </data>
   <data name="ThePeople" xml:space="preserve">
     <value>ThePeople</value>
@@ -282,7 +363,19 @@
   <data name="We_accept_only_sick_cases" xml:space="preserve">
     <value>We accept only sick cases</value>
   </data>
+  <data name="Write_your_message" xml:space="preserve">
+    <value>Write your message</value>
+  </data>
   <data name="YouCanHelp" xml:space="preserve">
     <value>You Can Help</value>
+  </data>
+  <data name="Your_Email" xml:space="preserve">
+    <value>Your Email</value>
+  </data>
+  <data name="Your_Name" xml:space="preserve">
+    <value>Your Name</value>
+  </data>
+  <data name="Your_password" xml:space="preserve">
+    <value>Your Password</value>
   </data>
 </root>

@@ -124,16 +124,13 @@
     <value>Aggiungi nuovo supporto non valido</value>
   </data>
   <data name="Add_user_not_valid" xml:space="preserve">
-    <value>Add user not valid</value>
+    <value>Aggiungi utente non valido</value>
   </data>
   <data name="File_not_saved" xml:space="preserve">
     <value>File non salvato</value>
   </data>
   <data name="Image_not_saved" xml:space="preserve">
     <value>Immagine non salvata</value>
-  </data>
-  <data name="Incorrect_Case_id" xml:space="preserve">
-    <value>ID caso errato</value>
   </data>
   <data name="Incorrect_Email" xml:space="preserve">
     <value>email errata</value>
