@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="AssetsImages\Charity\Images\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 

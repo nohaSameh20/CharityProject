@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Charity.Application.Users.Auth;
+using Charity.CommonProject.Service;
 using Charity.Jwt.DI;
 using Charity.WebApp.Resources;
 using CharityProject.Application;
@@ -23,6 +24,7 @@ using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
+using Stripe;
 using static Charity.Web.Middelware.ErrorHandlingMiddleware;
 
 namespace Charity.WebApp
@@ -141,7 +143,8 @@ namespace Charity.WebApp
                 RequestPath = new PathString("/Data")
             });
 
-           
+            StripeConfiguration.SetApiKey(Configuration.GetSection("Stripe")["SecretKey"]);
+
         }
 
 
@@ -157,6 +160,8 @@ namespace Charity.WebApp
             services.RegisterApplication();
 
 
+            StripeConfigurationModel stripeConfiguration = Configuration.GetSection("Stripe").Get<StripeConfigurationModel>();
+
             services.RegisterCommon();
             services.RegisterJWT(JwtSection);
 
@@ -164,9 +169,9 @@ namespace Charity.WebApp
             //=======File Manager ========
             FileManagerConfiguration fileOptions = Configuration.GetSection("Files").Get<FileManagerConfiguration>();
             fileOptions.HostingPath = Path.Combine(env.ContentRootPath) + "/";
-
+            
             services.RegisterFileManager(fileOptions);
-
+            //Stripe Configuration
         }
     }
 }

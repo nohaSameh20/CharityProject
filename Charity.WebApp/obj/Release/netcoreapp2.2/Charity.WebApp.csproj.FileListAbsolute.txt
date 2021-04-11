@@ -23,8 +23,6 @@ C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\bin\Release
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\bin\Release\netcoreapp2.2\Charity.Domain.pdb
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\bin\Release\netcoreapp2.2\Charity.FileManager.pdb
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.csprojAssemblyReference.cache
-C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.Ar.resources
-C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.IT.resources
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.csproj.GenerateResource.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.AssemblyInfoInputs.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.AssemblyInfo.cs
@@ -63,3 +61,13 @@ C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.dll
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.pdb
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.genruntimeconfig.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\bin\Release\netcoreapp2.2\ar-EG\Charity.WebApp.resources.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\bin\Release\netcoreapp2.2\it-IT\Charity.WebApp.resources.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.BusinessMessages.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.SharedResource.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.BusinessMessages.ar-EG.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.BusinessMessages.it-IT.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.SharedResource.ar-EG.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\Charity.WebApp.Resources.SharedResource.it-IT.resources
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\ar-EG\Charity.WebApp.resources.dll
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.WebApp\obj\Release\netcoreapp2.2\it-IT\Charity.WebApp.resources.dll

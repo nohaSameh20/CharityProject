@@ -2,6 +2,7 @@
 using Charity.Application.Account;
 using Charity.Application.Case;
 using Charity.Application.Countries;
+using Charity.Application.CreditCards;
 using Charity.Application.Emails;
 using Charity.Application.Media;
 using Microsoft.AspNetCore.Http;
@@ -39,7 +40,11 @@ namespace CharityProject.Application
             services.AddScoped<ILoadCountryQuery, LoadCountryQuery>();
             services.AddScoped<ILoadNationalityQuery, LoadNationalityQuery>();
             services.AddScoped<ILoadCitiesQuery, LoadCitiesQuery>();
+            //==============Credit Card===========================//
+            services.AddScoped<IStoreCreditCardCommand, StoreCreditCardCommand>();
+            services.AddScoped<ICreatePaymentCommand, CreatePaymentCommand>();
 
+            
         }
     }
 }

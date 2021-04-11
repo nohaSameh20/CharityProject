@@ -59,7 +59,7 @@ C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\De
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.csproj.GenerateResource.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.AssemblyInfoInputs.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.AssemblyInfo.cs
-C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.csproj.CoreCompileInputs.cache
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.csproj.CopyComplete
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.dll
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.pdb
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Application\obj\Debug\netcoreapp2.2\Charity.Application.csproj.CoreCompileInputs.cache

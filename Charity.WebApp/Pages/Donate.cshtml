@@ -3,7 +3,11 @@
 @{
 }
 @using Enum
-
+<style>
+    .message{
+        color: red
+    }
+</style>
 <!-- Page Banner Section -->
 <section class="page-banner">
     <div class="image-layer lazy-image" data-bg="url('images/background/bg-banner-1.jpg')"></div>
@@ -38,29 +42,13 @@
                 <div class="form-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="donate-form">
-                            <form method="post" action="http://html.commonsupport.xyz/2019/loveus/contact.html">
-                                <h3>Your Donation</h3>
-
+                            <form method="post">
                                 <div class="form-group">
                                     <div class="field-label">How much would you like to donate?</div>
-                                    <div class="select-amount clearfix">
-                                        <div class="select-box"><input type="radio" name="payment-group" id="radio-one"><label for="radio-one">$10</label></div>
-                                        <div class="select-box"><input type="radio" name="payment-group" id="radio-two"><label for="radio-two">$20</label></div>
-                                        <div class="select-box"><input type="radio" name="payment-group" id="radio-three" checked><label for="radio-three">$50</label></div>
-                                        <div class="select-box"><input type="radio" name="payment-group" id="radio-four"><label for="radio-four">$100</label></div>
-                                    </div>
-                                    <div class="input-box"><input type="text" name="other-payment" value="" placeholder="or Give a Custom Amount"></div>
-                                </div>
+                                    <input type="text" class="form-control" placeholder="Enter Amount" asp-for="model.Money">
+                                    <span class="message" asp-validation-for="model.Money"></span>
 
-                                @*<div class="method">
-                                        <h3>Payment Method</h3>
-                                        <div class="form-group">
-                                            <div class="clearfix">
-                                                <div class="radio-block"><input type="radio" id="radio-1" name="method"><label for="radio-1">Test Donation</label></div>
-                                                <div class="radio-block"><input type="radio" id="radio-2" name="method"><label for="radio-2">Offline Donation</label></div>
-                                            </div>
-                                        </div>
-                                    </div>*@
+                                </div>
 
                                 <div class="personal-info">
                                     <h3>Payment Information</h3>
@@ -72,37 +60,41 @@
                                         </div>
                                         <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-label">Card Number</div>
-                                            <input type="text" name="field-name" value="">
+                                            <input type="text" asp-for="model.Number">
+                                            <span class="message" asp-validation-for="model.Number"></span>
+
                                         </div>
 
                                         <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-label">CVV</div>
-                                            <input type="email" name="field-name" value="">
+                                            <input type="text" asp-for="model.Cvv">
+                                            <span class="message" asp-validation-for="model.Cvv"></span>
+
                                         </div>
 
                                         <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-label">Month</div>
-                                            <input type="month" name="field-name" >
+                                            <input type="number" min="1" max="12" placeholder="MM" asp-for="model.ExpireMonth">
+                                            <span class="message" asp-validation-for="model.ExpireMonth"></span>
+
                                         </div>
 
                                         <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                             <div class="field-label">Year</div>
-                                            <input type="text" min="1900" max="2099" step="1" value="YYYY">
+                                            <input type="number" min="1900" max="2099" step="1" placeholder="YYYY" asp-for="model.ExpireYear">
+                                            <span class="message" asp-validation-for="model.ExpireYear"></span>
+
                                         </div>
                                         <div class="method">
-                                        <div class="form-group">
-                                            <div class="clearfix">
-                                                <div class="radio-block"><input type="radio" id="radio-1" name="method"><label for="radio-1">Please Agree to the <span style="color:#3cc88f">refund policy terms and conditions</span> before procedding</label></div>
+                                            <div class="form-group">
+                                                <div class="clearfix">
+                                                    <div class="radio-block"><input type="radio" id="radio-1" name="method"><label for="radio-1">Please Agree to the <span style="color:#3cc88f">refund policy terms and conditions</span> before procedding</label></div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                            <div class="donation-total">Donation Total: <strong>$50.00</strong></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-
                                     <div class="btn-box">
                                         <button type="submit" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></button>
                                     </div>

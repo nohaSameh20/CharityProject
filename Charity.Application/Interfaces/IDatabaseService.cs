@@ -2,6 +2,7 @@
 using Charity.Domain.Address;
 using Charity.Domain.Adreess;
 using Charity.Domain.Cases;
+using Charity.Domain.CreditCards;
 using Charity.Domain.Medias;
 using CharityProject.Domain;
 using System;
@@ -18,6 +19,8 @@ namespace CharityProject.Application.Interfaces
         IRepository<User> Users { get; }
         IRepository<Media> Medias { get; }
         IRepository<Case> Cases { get; }
+        IRepository<CreditCard> CreditCards { get; }
+
 
         //bool ExecuteTransaction(Action transactionBody);
         void SaveChanges();

@@ -32,3 +32,4 @@ C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\n
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.dll
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.pdb
 C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.genruntimeconfig.cache
+C:\Users\Noha\source\repos\Charity_New\CharityProject\Charity.Domain\obj\Debug\netcoreapp2.2\Charity.Domain.csprojAssemblyReference.cache

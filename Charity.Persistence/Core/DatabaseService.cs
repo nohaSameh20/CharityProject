@@ -7,12 +7,13 @@ using Charity.Domain.Adreess;
 using CharityProject.Domain;
 using Charity.Domain.Medias;
 using Charity.Domain.Cases;
+using Charity.Domain.CreditCards;
 
 namespace CharityProject.Persistance
 {
     public class DatabaseService : DbContext, IDatabaseService
     {
-        private string connectionString= "Data Source=SQL5103.site4now.net;Initial Catalog=DB_A71CC3_NohaSamehGomaa;User Id=DB_A71CC3_NohaSamehGomaa_admin;Password=P@ssw0rd";
+        private string connectionString= "Data Source=SQL5103.site4now.net;Initial Catalog=DB_A724BB_MoahmedSameh;User Id=DB_A724BB_MoahmedSameh_admin;Password=P@ssw0rd";
         private IServiceProvider provider;
         public DatabaseService(  IServiceProvider provider, IDatabaseServiceOptions options)
         {
@@ -26,6 +27,8 @@ namespace CharityProject.Persistance
         internal DbSet<Media> Medias { set; get; }
         internal DbSet<Case> Cases { set; get; }
         internal DbSet<Nationality> Nationalities { get; set; }
+        internal DbSet<CreditCard> CreditCards { get; set; }
+
 
 
         IRepository<City> IDatabaseService.Cities
@@ -79,6 +82,15 @@ namespace CharityProject.Persistance
             get
             {
                 return new Repository<Case>(provider);
+            }
+
+        }
+
+        IRepository<CreditCard> IDatabaseService.CreditCards
+        {
+            get
+            {
+                return new Repository<CreditCard>(provider);
             }
 
         }

@@ -117,6 +117,51 @@ namespace Charity.Persistence.Migrations
                     b.ToTable("Case");
                 });
 
+            modelBuilder.Entity("Charity.Domain.CreditCards.CreditCard", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("CreatedAt");
+
+                    b.Property<string>("CreatedBy");
+
+                    b.Property<string>("CreditCardId");
+
+                    b.Property<string>("Cvv")
+                        .IsRequired()
+                        .HasMaxLength(4);
+
+                    b.Property<int>("ExpireMonth");
+
+                    b.Property<int>("ExpireYear");
+
+                    b.Property<bool?>("IsSaved");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasMaxLength(19);
+
+                    b.Property<string>("Type")
+                        .IsRequired();
+
+                    b.Property<string>("UpdatedBy");
+
+                    b.Property<DateTime>("UpdatedDate");
+
+                    b.Property<Guid>("UserId");
+
+                    b.Property<string>("valid_until");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("CreditCards");
+                });
+
             modelBuilder.Entity("Charity.Domain.Medias.Media", b =>
                 {
                     b.Property<Guid>("Id")
@@ -194,6 +239,14 @@ namespace Charity.Persistence.Migrations
                     b.HasOne("Charity.Domain.Adreess.Country", "Country")
                         .WithMany("states")
                         .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Charity.Domain.CreditCards.CreditCard", b =>
+                {
+                    b.HasOne("CharityProject.Domain.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
